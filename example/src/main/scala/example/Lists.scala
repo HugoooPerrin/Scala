@@ -24,7 +24,7 @@ object Lists {
    * @return The sum of all elements in `xs`
    */
     def sum(xs: List[Int]): Int =
-      if (xs.isEmpty) throw new IllegalArgumentException("sum of empty list")
+      if (xs.isEmpty) throw new NoSuchElementException
       else if (xs.tail.isEmpty) xs.head
       else xs.head + sum(xs.tail)
   
@@ -42,7 +42,7 @@ object Lists {
    * @throws java.util.NoSuchElementException if `xs` is an empty list
    */
     def max(xs: List[Int]): Int =
-      if (xs.isEmpty) throw new IllegalArgumentException("max of empty list")
+      if (xs.isEmpty) throw new NoSuchElementException
       else xs.reduceLeft((x, y) => if (x > y) x else y)
 
   }
