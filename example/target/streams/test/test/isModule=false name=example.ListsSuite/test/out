@@ -5,3 +5,5 @@
 [0m[[0minfo[0m] [0m[32m- intNotZero throws an exception if its argument is 0[0m[0m
 [0m[[0minfo[0m] [0m[32m- sum of a few numbers[0m[0m
 [0m[[0minfo[0m] [0m[32m- max of a few numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- max of empty list[0m[0m
+[0m[[0minfo[0m] [0m[32m- sum of empty list[0m[0m

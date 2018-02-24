@@ -3,19 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="0ffb4ed3-93ea-4176-9627-3153fcae0f10" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/example/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/example/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
-      <change beforePath="$PROJECT_DIR$/example/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/example/project/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/example/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/example/project/target/streams/compile/copyResources/$global/streams/copy-resources" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/scala/example/Lists.scala" afterPath="$PROJECT_DIR$/example/src/main/scala/example/Lists.scala" />
       <change beforePath="$PROJECT_DIR$/example/src/main/scala/main.scala" afterPath="$PROJECT_DIR$/example/src/main/scala/main.scala" />
       <change beforePath="$PROJECT_DIR$/example/src/test/scala/example/ListsSuite.scala" afterPath="$PROJECT_DIR$/example/src/test/scala/example/ListsSuite.scala" />
       <change beforePath="$PROJECT_DIR$/example/target/.history" afterPath="$PROJECT_DIR$/example/target/.history" />
-      <change beforePath="$PROJECT_DIR$/example/target/streams/compile/$global/$global/discoveredMainClasses/data" afterPath="$PROJECT_DIR$/example/target/streams/compile/$global/$global/discoveredMainClasses/data" />
-      <change beforePath="$PROJECT_DIR$/example/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/example/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/example/target/scala-2.11/classes/example/Lists$.class" afterPath="$PROJECT_DIR$/example/target/scala-2.11/classes/example/Lists$.class" />
+      <change beforePath="$PROJECT_DIR$/example/target/scala-2.11/classes/example/Main$.class" afterPath="$PROJECT_DIR$/example/target/scala-2.11/classes/example/Main$.class" />
+      <change beforePath="$PROJECT_DIR$/example/target/scala-2.11/progfun1-example_2.11-0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/example/target/scala-2.11/progfun1-example_2.11-0.1-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/example/target/scala-2.11/test-classes/example/ListsSuite.class" afterPath="$PROJECT_DIR$/example/target/scala-2.11/test-classes/example/ListsSuite.class" />
       <change beforePath="$PROJECT_DIR$/example/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/example/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
+      <change beforePath="$PROJECT_DIR$/example/target/streams/compile/packageSubmission/$global/streams/inputs" afterPath="$PROJECT_DIR$/example/target/streams/compile/packageSubmission/$global/streams/inputs" />
       <change beforePath="$PROJECT_DIR$/example/target/streams/compile/run/$global/streams/out" afterPath="$PROJECT_DIR$/example/target/streams/compile/run/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/example/target/streams/test/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/example/target/streams/test/compileIncremental/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/example/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/example/target/streams/test/definedTests/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/example/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/example/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" />
+      <change beforePath="$PROJECT_DIR$/example/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/example/target/streams/test/test/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/example/target/streams/test/test/$global/streams/succeeded_tests" afterPath="$PROJECT_DIR$/example/target/streams/test/test/$global/streams/succeeded_tests" />
+      <change beforePath="$PROJECT_DIR$/example/target/streams/test/test/isModule=false name=example.ListsSuite/test/out" afterPath="$PROJECT_DIR$/example/target/streams/test/test/isModule=false name=example.ListsSuite/test/out" />
+      <change beforePath="$PROJECT_DIR$/example/target/test-reports/example.ListsSuite.xml" afterPath="$PROJECT_DIR$/example/target/test-reports/example.ListsSuite.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,40 +37,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lists.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/main/scala/example/Lists.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/main/scala/main.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListsSuite.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/example/src/test/scala/example/ListsSuite.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="131" column="0" lean-forward="true" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-              <folding>
-                <element signature="e#17#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -89,13 +59,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/example/src/main/scala/main.sc" />
-        <option value="$PROJECT_DIR$/example/src/main/scala/main.scala" />
         <option value="$PROJECT_DIR$/example/src/main/scala/example/Lists.scala" />
         <option value="$PROJECT_DIR$/example/src/test/scala/example/ListsSuite.scala" />
+        <option value="$PROJECT_DIR$/example/src/main/scala/main.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="686" />
     <option name="width" value="1234" />
     <option name="height" value="1047" />
@@ -124,6 +94,22 @@
             <path>
               <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -307,8 +293,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="686" y="0" width="1234" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="686" y="0" width="1234" height="1047" extended-state="1" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -323,7 +308,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19136807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19136807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -411,15 +396,15 @@
     <entry file="file://$PROJECT_DIR$/example/src/main/scala/main.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/src/test/scala/example/ListsSuite.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="131" column="0" lean-forward="true" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+        <state relative-caret-position="535">
+          <caret line="113" column="37" lean-forward="true" selection-start-line="113" selection-start-column="37" selection-end-line="113" selection-end-column="37" />
           <folding>
             <element signature="e#17#46#0" expanded="true" />
           </folding>

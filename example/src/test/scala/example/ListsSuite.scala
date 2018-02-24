@@ -121,11 +121,23 @@ import org.scalatest.junit.JUnitRunner
     assert(max(List(3, 7, 2)) === 7)
   }
 
+  /**
+    * In order to test the exceptional behavior of a methods, ScalaTest offers
+    * the `intercept` operation.
+    *
+    * In the following example, we test the fact that the methods sum and max
+    * throws an NoSuchElementException if its argument is empty.
+    */
+
   test("max of empty list") {
-    assert(max(List(3, 7, 2)) === 7)
+    intercept[NoSuchElementException] {
+      max(List())
+    }
   }
 
   test("sum of empty list") {
-    assert(max(List(3, 7, 2)) === 7)
+    intercept[NoSuchElementException] {
+      sum(List())
+    }
   }
 }
