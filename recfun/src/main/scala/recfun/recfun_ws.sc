@@ -1,15 +1,16 @@
 /**
-  * Exercise 1
+  * Exercise 3
   */
-def pascal(c: Int, r: Int): Int = {
+def countChange(money: Int, coins: List[Int]): Int = {
 
-  if (c > r) throw new IllegalArgumentException("Impossible configuration")
-  else {
+  def loop(acc: Int, money: Int, coins: List[Int]): Int = {
 
-    if (c == 0 || c == r) 1
-    else pascal(c, r -1) + pascal(c-1, r-1)
+    if (money == 0 || coins.isEmpty) acc
+    else {
+
     }
   }
 
-pascal(1,2)
-pascal(11, 16)
+}
+
+
