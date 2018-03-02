@@ -4,19 +4,15 @@
     <list default="true" id="0ffb4ed3-93ea-4176-9627-3153fcae0f10" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/recfun/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/recfun/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
-      <change beforePath="$PROJECT_DIR$/recfun/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/recfun/project/target/streams/compile/compileIncremental/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/recfun/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/recfun/project/target/streams/compile/copyResources/$global/streams/copy-resources" />
       <change beforePath="$PROJECT_DIR$/recfun/src/main/scala/recfun/Main.scala" afterPath="$PROJECT_DIR$/recfun/src/main/scala/recfun/Main.scala" />
       <change beforePath="$PROJECT_DIR$/recfun/src/main/scala/recfun/recfun_ws.sc" afterPath="$PROJECT_DIR$/recfun/src/main/scala/recfun/recfun_ws.sc" />
       <change beforePath="$PROJECT_DIR$/recfun/target/.history" afterPath="$PROJECT_DIR$/recfun/target/.history" />
       <change beforePath="$PROJECT_DIR$/recfun/target/scala-2.11/classes/recfun/Main$.class" afterPath="$PROJECT_DIR$/recfun/target/scala-2.11/classes/recfun/Main$.class" />
-      <change beforePath="$PROJECT_DIR$/recfun/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/recfun/target/streams/compile/compileIncremental/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/recfun/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/recfun/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
-      <change beforePath="$PROJECT_DIR$/recfun/target/streams/test/$global/$global/definedTestNames/data" afterPath="$PROJECT_DIR$/recfun/target/streams/test/$global/$global/definedTestNames/data" />
       <change beforePath="$PROJECT_DIR$/recfun/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/recfun/target/streams/test/definedTests/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/recfun/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/recfun/target/streams/test/test/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/recfun/target/streams/test/test/$global/streams/succeeded_tests" afterPath="$PROJECT_DIR$/recfun/target/streams/test/test/$global/streams/succeeded_tests" />
-      <change beforePath="$PROJECT_DIR$/recfun/target/streams/test/test/isModule=false name=recfun.BalanceSuite/test/out" afterPath="$PROJECT_DIR$/recfun/target/streams/test/test/isModule=false name=recfun.BalanceSuite/test/out" />
       <change beforePath="$PROJECT_DIR$/recfun/target/streams/test/test/isModule=false name=recfun.CountChangeSuite/test/out" afterPath="$PROJECT_DIR$/recfun/target/streams/test/test/isModule=false name=recfun.CountChangeSuite/test/out" />
       <change beforePath="$PROJECT_DIR$/recfun/target/test-reports/recfun.BalanceSuite.xml" afterPath="$PROJECT_DIR$/recfun/target/test-reports/recfun.BalanceSuite.xml" />
       <change beforePath="$PROJECT_DIR$/recfun/target/test-reports/recfun.CountChangeSuite.xml" afterPath="$PROJECT_DIR$/recfun/target/test-reports/recfun.CountChangeSuite.xml" />
@@ -40,21 +36,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/recfun/src/main/scala/recfun/Main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="60" lean-forward="true" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+            <state relative-caret-position="615">
+              <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recfun_ws.sc" pinned="false" current-in-tab="true">
+      <file leaf-file-name="recfun_ws.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recfun/src/main/scala/recfun/recfun_ws.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,8 +82,8 @@
         <option value="$PROJECT_DIR$/example/src/test/scala/example/ListsSuite.scala" />
         <option value="$PROJECT_DIR$/example/src/main/scala/main.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/week1.sc" />
-        <option value="$PROJECT_DIR$/recfun/src/main/scala/recfun/Main.scala" />
         <option value="$PROJECT_DIR$/recfun/src/main/scala/recfun/recfun_ws.sc" />
+        <option value="$PROJECT_DIR$/recfun/src/main/scala/recfun/Main.scala" />
       </list>
     </option>
   </component>
@@ -130,6 +126,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,14 +194,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -379,7 +375,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="1926" height="1050" extended-state="6" />
+    <frame x="789" y="0" width="1926" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -422,6 +418,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/recfun/src/main/scala/recfun/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="60" lean-forward="true" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recfun/src/main/scala/recfun/recfun_ws.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/recfun/src/main/scala/recfun/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -539,18 +551,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recfun/src/main/scala/recfun/Main.scala">
+    <entry file="file://$PROJECT_DIR$/recfun/src/main/scala/recfun/recfun_ws.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="60" lean-forward="true" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recfun/src/main/scala/recfun/recfun_ws.sc">
+    <entry file="file://$PROJECT_DIR$/recfun/src/main/scala/recfun/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="615">
+          <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
           <folding />
         </state>
       </provider>
