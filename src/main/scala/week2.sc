@@ -15,3 +15,4 @@ sumCube(1, 4)
  Using anonymous functions
  */
 sum((x: Int) => x*x*x, 1, 4)
+ rejngrt 
