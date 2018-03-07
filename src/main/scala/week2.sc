@@ -114,25 +114,39 @@ def sqrt(x: Double) =
 sqrt(2)
 
 /*
-Class
+Class Rational
  */
 class Rational(x: Int, y: Int) {
-  def numerator = x
-  def denominator = y
+
+  // Necessary condition
+  require(y != 0, "Denominator must be non zero")
+
+  // Second constructor for special case
+  def this(x: Int) = this(x, 1)
+
+  // Exists only inside the class
+  private def gcd(a: Int, b: Int): Int= if (b == 0) a else gcd(b, a % b)
+  private val g = gcd(x, y)
+
+  def numerator = x/g
+  def denominator = y/g
 
   def neg = new Rational(-numerator, denominator)
 
   def add(that: Rational) =
     new Rational(
-      numerator * that.denominator + that.numerator * denominator,
-      denominator * that.denominator)
-  def sub(that: Rational) = add(that.neg)
+      this.numerator * that.denominator + that.numerator * this.denominator,
+      this.denominator * that.denominator)
+
+  def sub(that: Rational) = this.add(that.neg)
+
+  def less(that: Rational) = this.numerator * that.denominator < that.numerator * this.denominator
+
+  def max(that: Rational) = if (this.less(that)) that else this
 
   override def toString = numerator + "/" + denominator
 }
 
 val x = new Rational(1,2)
 val y = new Rational(2,3)
-
-x.sub(y)
 
