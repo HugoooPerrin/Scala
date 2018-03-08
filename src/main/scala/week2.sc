@@ -131,18 +131,18 @@ class Rational(x: Int, y: Int) {
   def numerator = x/g
   def denominator = y/g
 
-  def neg = new Rational(-numerator, denominator)
+  def unary_- = new Rational(-numerator, denominator)
 
-  def add(that: Rational) =
+  def + (that: Rational) =
     new Rational(
       this.numerator * that.denominator + that.numerator * this.denominator,
       this.denominator * that.denominator)
 
-  def sub(that: Rational) = this.add(that.neg)
+  def - (that: Rational) = this + -that
 
-  def less(that: Rational) = this.numerator * that.denominator < that.numerator * this.denominator
+  def < (that: Rational) = this.numerator * that.denominator < that.numerator * this.denominator
 
-  def max(that: Rational) = if (this.less(that)) that else this
+  def max(that: Rational) = if (this < that) that else this
 
   override def toString = numerator + "/" + denominator
 }
@@ -150,3 +150,4 @@ class Rational(x: Int, y: Int) {
 val x = new Rational(1,2)
 val y = new Rational(2,3)
 
+x - y - y
