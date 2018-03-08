@@ -281,51 +281,67 @@
 [debug] == resolving dependencies default#scala$sources;0.1->org.scala-lang#scala-compiler;2.12.4 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried /home/hugoperrin/.ivy2/local/org.scala-lang/scala-library/2.12.4/srcs/scala-library-sources.jar
+[debug] 		tried C:\Users\HPERRIN\.ivy2\local\org.scala-lang\scala-library\2.12.4\srcs\scala-library-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar
-[debug] 		tried /home/hugoperrin/.ivy2/local/org.scala-lang.modules/scala-xml_2.12/1.0.6/srcs/scala-xml_2.12-sources.jar
+[debug] 		tried C:\Users\HPERRIN\.ivy2\local\org.scala-lang\scala-compiler\2.12.4\srcs\scala-compiler-sources.jar
+[debug] 		tried C:\Users\HPERRIN\.ivy2\local\org.scala-lang.modules\scala-xml_2.12\1.0.6\srcs\scala-xml_2.12-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
-[debug] 		tried /home/hugoperrin/.ivy2/local/jline/jline/2.14.5/srcs/jline-sources.jar
-[debug] 		tried /home/hugoperrin/.ivy2/local/org.scala-lang/scala-compiler/2.12.4/srcs/scala-compiler-sources.jar
-[debug] 		tried /home/hugoperrin/.ivy2/local/org.scala-lang/scala-reflect/2.12.4/srcs/scala-reflect-sources.jar
+[debug] no default ivy user dir defined: set to C:\Users\HPERRIN\.ivy2
+[debug] including url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\HPERRIN\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (11ms)
+[debug] 	default cache: C:\Users\HPERRIN\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar
+[debug] 		tried C:\Users\HPERRIN\.ivy2\local\jline\jline\2.14.5\srcs\jline-sources.jar
+[debug] 		tried C:\Users\HPERRIN\.ivy2\local\org.scala-lang\scala-reflect\2.12.4\srcs\scala-reflect-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar ...
 [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar ...
 [info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar ...
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar ...
 [info] downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar
 [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src) (2033ms)
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src) (1780ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.4!scala-library.jar(src) (1907ms)
 [debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar
-[info] 	[SUCCESSFUL ] jline#jline;2.14.5!jline.jar(src) (2117ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar.sha1
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src) (11966ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.4!scala-library.jar(src) (17224ms)
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src) (1876ms)
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src) (17350ms)
-[debug] :: resolution report :: resolve 29ms :: artifacts dl 17362ms
-[debug] 	report for default#scala$sources;0.1 compile produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/target/scala-2.12/resolution-cache/reports/default-scala$sources-compile.xml
-[debug] 	report for default#scala$sources;0.1 runtime produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/target/scala-2.12/resolution-cache/reports/default-scala$sources-runtime.xml
-[debug] 	report for default#scala$sources;0.1 test produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/target/scala-2.12/resolution-cache/reports/default-scala$sources-test.xml
-[debug] 	report for default#scala$sources;0.1 provided produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/target/scala-2.12/resolution-cache/reports/default-scala$sources-provided.xml
-[debug] 	report for default#scala$sources;0.1 optional produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/target/scala-2.12/resolution-cache/reports/default-scala$sources-optional.xml
-[debug] 	report for default#scala$sources;0.1 compile-internal produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/target/scala-2.12/resolution-cache/reports/default-scala$sources-compile-internal.xml
-[debug] 	report for default#scala$sources;0.1 runtime-internal produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/target/scala-2.12/resolution-cache/reports/default-scala$sources-runtime-internal.xml
-[debug] 	report for default#scala$sources;0.1 test-internal produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/target/scala-2.12/resolution-cache/reports/default-scala$sources-test-internal.xml
-[debug] 	report for default#scala$sources;0.1 plugin produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/target/scala-2.12/resolution-cache/reports/default-scala$sources-plugin.xml
-[debug] 	report for default#scala$sources;0.1 pom produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/target/scala-2.12/resolution-cache/reports/default-scala$sources-pom.xml
-[debug] 	report for default#scala$sources;0.1 scala-tool produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/target/scala-2.12/resolution-cache/reports/default-scala$sources-scala-tool.xml
-[debug] 	resolve done (29ms resolve - 17362ms download)
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src) (1906ms)
+[info] 	[SUCCESSFUL ] jline#jline;2.14.5!jline.jar(src) (1903ms)
+[debug] :: resolution report :: resolve 59ms :: artifacts dl 1994ms
+[debug] 	report for default#scala$sources;0.1 compile produced in C:\Users\HPERRIN\Desktop\Scala\target\scala-2.12\resolution-cache\reports\default-scala$sources-compile.xml
+[debug] 	report for default#scala$sources;0.1 runtime produced in C:\Users\HPERRIN\Desktop\Scala\target\scala-2.12\resolution-cache\reports\default-scala$sources-runtime.xml
+[debug] 	report for default#scala$sources;0.1 test produced in C:\Users\HPERRIN\Desktop\Scala\target\scala-2.12\resolution-cache\reports\default-scala$sources-test.xml
+[debug] 	report for default#scala$sources;0.1 provided produced in C:\Users\HPERRIN\Desktop\Scala\target\scala-2.12\resolution-cache\reports\default-scala$sources-provided.xml
+[debug] 	report for default#scala$sources;0.1 optional produced in C:\Users\HPERRIN\Desktop\Scala\target\scala-2.12\resolution-cache\reports\default-scala$sources-optional.xml
+[debug] 	report for default#scala$sources;0.1 compile-internal produced in C:\Users\HPERRIN\Desktop\Scala\target\scala-2.12\resolution-cache\reports\default-scala$sources-compile-internal.xml
+[debug] 	report for default#scala$sources;0.1 runtime-internal produced in C:\Users\HPERRIN\Desktop\Scala\target\scala-2.12\resolution-cache\reports\default-scala$sources-runtime-internal.xml
+[debug] 	report for default#scala$sources;0.1 test-internal produced in C:\Users\HPERRIN\Desktop\Scala\target\scala-2.12\resolution-cache\reports\default-scala$sources-test-internal.xml
+[debug] 	report for default#scala$sources;0.1 plugin produced in C:\Users\HPERRIN\Desktop\Scala\target\scala-2.12\resolution-cache\reports\default-scala$sources-plugin.xml
+[debug] 	report for default#scala$sources;0.1 pom produced in C:\Users\HPERRIN\Desktop\Scala\target\scala-2.12\resolution-cache\reports\default-scala$sources-pom.xml
+[debug] 	report for default#scala$sources;0.1 scala-tool produced in C:\Users\HPERRIN\Desktop\Scala\target\scala-2.12\resolution-cache\reports\default-scala$sources-scala-tool.xml
+[debug] 	resolve done (59ms resolve - 1994ms download)
