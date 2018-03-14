@@ -12,3 +12,8 @@ compile
 test
 submit hugo5.perrin@hotmail.fr J1P0wIeHNimsS4uj
 exit
+compile
+exit
+compile
+submit hugo5.perrin@hotmail.fr J1P0wIeHNimsS4uj
+exit
