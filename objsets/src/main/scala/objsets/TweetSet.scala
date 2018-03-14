@@ -54,7 +54,7 @@ abstract class TweetSet {
     * Question: Should we implment this method here, or should it remain abstract
     * and be implemented in the subclasses?
     */
-  def union(that: TweetSet): TweetSet
+  def union(that: TweetSet): TweetSet = that.filterAcc(t => true, this)
 
   /**
     * Returns the tweet from this set which has the greatest retweet count.
@@ -77,6 +77,8 @@ abstract class TweetSet {
     * and be implemented in the subclasses?
     */
   def descendingByRetweet: TweetList
+
+  def isEmpty: Boolean
 
   /**
     * The following methods are already implemented
@@ -113,13 +115,11 @@ class Empty extends TweetSet {
    */
   def filterAcc(p: Tweet => Boolean, acc: TweetSet): TweetSet = acc
 
-  def union(ts: TweetSet): TweetSet = ts
-
   def isEmpty = true
 
-  def mostRetweeted: Nothing = throw NoSuchElementException("Empty TweetSet")
+  def mostRetweeted: Nothing = throw new NoSuchElementException("Empty TweetSet")
 
-  def descendingByRetweet: new Nil
+  def descendingByRetweet: TweetList = Nil
 
   /**
     * The following methods are already implemented
@@ -139,13 +139,11 @@ class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
     *Propositions
     */
   def filterAcc(p: Tweet => Boolean, acc: TweetSet): TweetSet = {
-    if (p(elem)) left.filterAcc(p, acc incl elem) union right.filterAcc(p, acc incl elem)
-    else left.filterAcc(p, acc) union right.filterAcc(p, acc)
+    if (p(elem)) left.filterAcc(p, right.filterAcc(p, acc.incl(elem)))
+    else left.filterAcc(p, right.filterAcc(p, acc))
   }
 
   def isEmpty = false
-
-  def union(ts: TweetSet): TweetSet = ((left union right) union ts) incl elem
 
   def mostRetweeted: Tweet = {
     val all = left union right
@@ -156,8 +154,8 @@ class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
   }
 
   def descendingByRetweet: TweetList = {
-    Cons(this.mostRetweeted,
-         this remove mostRetweeted)
+    new Cons(mostRetweeted,
+             remove(mostRetweeted).descendingByRetweet)
   }
 
   /**
