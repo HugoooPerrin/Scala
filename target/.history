@@ -45,3 +45,8 @@ compile
 run
 compile
 exit
+sbt
+compile
+run
+compile
+exit

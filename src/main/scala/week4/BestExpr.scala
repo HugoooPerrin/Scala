@@ -8,7 +8,7 @@ trait Expr {
 
   def show: String = this match {
     case Number(n) => n.toString
-    case Sum(e1, e2) => e1.show + "+" + e2.show
+    case Sum(e1, e2) => e1.show + " + " + e2.show
   }
 }
 
