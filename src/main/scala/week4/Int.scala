@@ -1,6 +1,6 @@
 package week4
 
-abstract class Int {
+abstract class NInt {
   def + (that: Double): Double
   def + (that: Float): Float
   def + (that: Long): Long

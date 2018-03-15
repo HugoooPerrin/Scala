@@ -1,6 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\HPERRIN\Desktop\Scala\src\main\scala\week4\NBoolean.scala:14:46: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Boolean(false)[0m
-[0m[[0m[31merror[0m] [0m[0m required: week4.NBoolean[0m
-[0m[[0m[31merror[0m] [0m[0m  def < (x: NBoolean): NBoolean = ifThenElse(false, x)[0m
-[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\HPERRIN\Desktop\Scala\src\main\scala\week4\toRun.scala:3:8: Expression has a main method with parameter type Array[String], but Expression will not be a runnable program.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  Reason: main method must have exact signature (Array[String])Unit[0m
+[0m[[0m[33mwarn[0m] [0m[0mobject Expression {[0m
+[0m[[0m[33mwarn[0m] [0m[0m       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
