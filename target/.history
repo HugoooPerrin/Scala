@@ -27,3 +27,7 @@ compile
 exit
 compile
 exit
+compile
+run
+compile
+exit

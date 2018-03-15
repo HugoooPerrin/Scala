@@ -3,12 +3,128 @@
   <component name="ChangeListManager">
     <list default="true" id="0ffb4ed3-93ea-4176-9627-3153fcae0f10" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$28d1d5fdad130df4db15$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$28d1d5fdad130df4db15$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$28d1d5fdad130df4db15.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$28d1d5fdad130df4db15.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$3c7c47e88eb045dc3bbd$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$3c7c47e88eb045dc3bbd.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$3c7c47e88eb045dc3bbd.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$4325f3fcbf89a7cb15e3$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$4325f3fcbf89a7cb15e3$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$4325f3fcbf89a7cb15e3.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$4325f3fcbf89a7cb15e3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$83278ad0c26cb7cf3f92$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$83278ad0c26cb7cf3f92.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$83278ad0c26cb7cf3f92.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$9be467c8bbd6e0970c21$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$9be467c8bbd6e0970c21$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$9be467c8bbd6e0970c21.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$9be467c8bbd6e0970c21.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$a1e2ef58588072f4ec32$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$a1e2ef58588072f4ec32$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$a1e2ef58588072f4ec32.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$a1e2ef58588072f4ec32.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$dc797a3d801c75b15a7a$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$dc797a3d801c75b15a7a.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/project/target/config-classes/$dc797a3d801c75b15a7a.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$0bedf6ba5eaee5094cfc$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$0bedf6ba5eaee5094cfc$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$0bedf6ba5eaee5094cfc$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$0bedf6ba5eaee5094cfc.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$0bedf6ba5eaee5094cfc.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$0c3a32df7f9231962f91$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$0c3a32df7f9231962f91$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$0c3a32df7f9231962f91.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$0c3a32df7f9231962f91.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$1c28913847c32ff6555d$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$1c28913847c32ff6555d$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$1c28913847c32ff6555d.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$1c28913847c32ff6555d.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$6cf407bcb1f426f7b5ad$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$6cf407bcb1f426f7b5ad$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$6cf407bcb1f426f7b5ad.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$6cf407bcb1f426f7b5ad.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$7c1ed63c6db11b47168b$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$7c1ed63c6db11b47168b$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$7c1ed63c6db11b47168b.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$7c1ed63c6db11b47168b.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$8aa9314c4fd0eb76706d$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$8aa9314c4fd0eb76706d$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$8aa9314c4fd0eb76706d.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$8aa9314c4fd0eb76706d.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$90bf6111ae97c9a38dcd$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$90bf6111ae97c9a38dcd$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$90bf6111ae97c9a38dcd.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$90bf6111ae97c9a38dcd.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$a5c288a7802a82401815$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$a5c288a7802a82401815$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$a5c288a7802a82401815.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$a5c288a7802a82401815.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$d732d4438d91c9ca9723$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$d732d4438d91c9ca9723$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$d732d4438d91c9ca9723.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$d732d4438d91c9ca9723.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$da6769906cb084c652a8$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$da6769906cb084c652a8$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$da6769906cb084c652a8.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/config-classes/$da6769906cb084c652a8.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/classes/GradingFeedback.class" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/classes/GradingFeedback.class" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$LimitedStringBuffer.class" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/classes/ScalaTestRunner$LimitedStringBuffer.class" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$12$$anonfun$apply$10.class" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$12$$anonfun$apply$10.class" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitLocalSetting$1$$anonfun$apply$2$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitLocalSetting$1$$anonfun$apply$2$$anonfun$apply$3.class" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitSetting$1$$anonfun$apply$5$$anonfun$apply$6$$anonfun$11.class" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitSetting$1$$anonfun$apply$5$$anonfun$apply$6$$anonfun$11.class" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitSetting$1$$anonfun$apply$5$$anonfun$apply$6$$anonfun$7.class" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitSetting$1$$anonfun$apply$5$$anonfun$apply$6$$anonfun$7.class" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitSetting$1$$anonfun$apply$5$$anonfun$apply$6.class" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike$$anonfun$submitSetting$1$$anonfun$apply$5$$anonfun$apply$6.class" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike.class" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike.class" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/classes/StyleChecker$.class" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/classes/StyleChecker$.class" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/default/objsets-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/default/objsets-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/default/objsets-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/default/objsets-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-compile-internal.xml" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-compile.xml" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-docs.xml" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-docs.xml" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-optional.xml" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-plugin.xml" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-pom.xml" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-provided.xml" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-runtime.xml" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-scala-tool.xml" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-sources.xml" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-sources.xml" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-test-internal.xml" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-test.xml" afterPath="$PROJECT_DIR$/objsets/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-objsets-build-test.xml" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/streams/$global/$global/$global/streams/out" afterPath="$PROJECT_DIR$/objsets/project/target/streams/$global/$global/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/objsets/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/objsets/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/objsets/project/target/streams/$global/update/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/objsets/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/objsets/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/objsets/project/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/objsets/project/target/streams/compile/compileIncremental/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/objsets/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/objsets/project/target/streams/compile/copyResources/$global/streams/copy-resources" />
-      <change beforePath="$PROJECT_DIR$/objsets/src/main/scala/objsets/TweetSet.scala" afterPath="$PROJECT_DIR$/objsets/src/main/scala/objsets/TweetSet.scala" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/objsets/project/target/streams/compile/copyResources/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/objsets/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/objsets/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/objsets/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" afterPath="$PROJECT_DIR$/objsets/project/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/objsets/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/objsets/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/objsets/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/objsets/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/objsets/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/objsets/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/objsets/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/objsets/project/target/streams/runtime/managedClasspath/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/objsets/target/.history" afterPath="$PROJECT_DIR$/objsets/target/.history" />
+      <change beforePath="$PROJECT_DIR$/objsets/target/scala-2.11/classes/objsets/TweetData$.class" afterPath="$PROJECT_DIR$/objsets/target/scala-2.11/classes/objsets/TweetData$.class" />
+      <change beforePath="$PROJECT_DIR$/objsets/target/streams/$global/$global/$global/streams/out" afterPath="$PROJECT_DIR$/objsets/target/streams/$global/$global/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/objsets/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/objsets/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/objsets/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/objsets/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/objsets/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/objsets/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/objsets/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/objsets/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/objsets/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/objsets/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/objsets/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/objsets/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
+      <change beforePath="$PROJECT_DIR$/objsets/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/objsets/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/objsets/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/objsets/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/week3/List.scala" afterPath="$PROJECT_DIR$/src/main/scala/week3/List.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,13 +146,24 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="week4.sc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/week4/week4.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Scala Worksheet" />
         <option value="Scala Script" />
+        <option value="Scala Worksheet" />
       </list>
     </option>
   </component>
@@ -68,17 +195,24 @@
         <option value="$PROJECT_DIR$/src/main/scala/week3/Hello.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/week2/week2.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/week3/IntSet.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/week3/List.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/week3/week3.sc" />
         <option value="$PROJECT_DIR$/objsets/src/main/scala/objsets/Tweet.sc" />
         <option value="$PROJECT_DIR$/objsets/src/main/scala/objsets/TweetTrend.sc" />
         <option value="$PROJECT_DIR$/objsets/src/main/scala/objsets/TweetTrend.scala" />
         <option value="$PROJECT_DIR$/objsets/src/main/scala/objsets/TweetSet.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/week4/IdealizedBoolean.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/week4/NBoolean.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/week4/NInt.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/week4/Nat.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/week4/List.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/week3/List.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/week4/week4.sc" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="896" />
+    <option name="x" value="2502" />
+    <option name="y" value="-8" />
     <option name="width" value="1017" />
     <option name="height" value="1044" />
   </component>
@@ -116,7 +250,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,14 +281,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="week3" type="462c0819:PsiDirectoryNode" />
+              <item name="week4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -334,11 +468,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="896" y="0" width="1926" height="1050" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32489452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3244963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -350,9 +485,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14947917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14947917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -367,6 +501,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.171875" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -379,31 +514,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/recfun/src/main/scala/recfun/recfun_ws.sc" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/week1.sc" />
-    <entry file="file://$PROJECT_DIR$/recfun/src/main/scala/recfun/Main.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recfun/src/main/scala/recfun/recfun_ws.sc" />
-    <entry file="file://$PROJECT_DIR$/recfun/src/main/scala/recfun/Main.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recfun/src/main/scala/recfun/recfun_ws.sc" />
-    <entry file="file://$PROJECT_DIR$/recfun/src/main/scala/recfun/Main.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="60" lean-forward="true" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recfun/src/main/scala/recfun/recfun_ws.sc" />
     <entry file="file://$PROJECT_DIR$/recfun/src/main/scala/recfun/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
@@ -555,9 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#17#46#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -566,35 +673,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/week3/IntSet.scala" />
+    <entry file="file://$PROJECT_DIR$/objsets/src/main/scala/objsets/TweetTrend.sc" />
+    <entry file="file://$PROJECT_DIR$/objsets/src/main/scala/objsets/TweetTrend.scala" />
+    <entry file="file://$PROJECT_DIR$/objsets/src/main/scala/objsets/TweetData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/week3/List.scala">
+    <entry file="file://$PROJECT_DIR$/objsets/src/main/scala/objsets/TweetReader.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="1105">
+          <caret line="65" column="44" lean-forward="true" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/week3/IntSet.scala">
+    <entry file="file://$PROJECT_DIR$/objsets/src/main/scala/objsets/TweetSet.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        <state relative-caret-position="555">
+          <caret line="213" column="57" lean-forward="false" selection-start-line="213" selection-start-column="57" selection-end-line="213" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/week4/IdealizedBoolean.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/week3/Hello.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/objsets/src/main/scala/objsets/TweetTrend.sc">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/week4/NInt.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/week4/NBoolean.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/week4/Int.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/week4/List.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -602,34 +751,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/objsets/src/main/scala/objsets/TweetTrend.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/week4/Nat.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/objsets/src/main/scala/objsets/TweetSet.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/week3/List.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="186" column="0" lean-forward="true" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/objsets/src/main/scala/objsets/TweetReader.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/week4/week4.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/objsets/src/main/scala/objsets/TweetData.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
