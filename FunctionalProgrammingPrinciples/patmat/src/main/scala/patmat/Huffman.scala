@@ -24,9 +24,15 @@ object Huffman {
   
 
   // Part 1: Basics
-  def weight(tree: CodeTree): Int = ??? // tree match ...
+  def weight(tree: CodeTree): Int = tree match {
+    case Fork(left, right, chars, weight) => weight
+    case Leaf(char, weight) => weight
+  }
   
-  def chars(tree: CodeTree): List[Char] = ??? // tree match ...
+  def chars(tree: CodeTree): List[Char] = tree match {
+    case Fork(left, right, chars, weight) => chars
+    case Leaf(char, weight) => List(char)
+  }
   
   def makeCodeTree(left: CodeTree, right: CodeTree) =
     Fork(left, right, chars(left) ::: chars(right), weight(left) + weight(right))
@@ -69,7 +75,10 @@ object Huffman {
    *       println("integer is  : "+ theInt)
    *   }
    */
-  def times(chars: List[Char]): List[(Char, Int)] = ???
+  def times(chars: List[Char]): List[(Char, Int)] = chars match {
+    case List() => Nil
+    case x :: xs => (x, chars.count(e => e == x)) :: times(xs.filter(e => e != x))
+  }
   
   /**
    * Returns a list of `Leaf` nodes for a given frequency table `freqs`.
@@ -78,8 +87,33 @@ object Huffman {
    * head of the list should have the smallest weight), where the weight
    * of a leaf is the frequency of the character.
    */
-  def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = ???
-  
+
+// FROM SCRATCH IMPLEMENTATION
+//
+//  def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = {
+//
+//    def isort(freqs: List[(Char, Int)]): List[(Char, Int)] = freqs match {
+//      case List() => Nil
+//      case x :: xs => insert(x, isort(xs))
+//    }
+//
+//    def insert(elem: (Char, Int), freqs: List[(Char, Int)]): List[(Char, Int)] = freqs match {
+//      case List() => List(elem)
+//      case x :: xs => {
+//        if (elem._2 > x._2) x :: insert(elem, xs)
+//        else elem :: x :: xs
+//      }
+//    }
+//
+//    isort(freqs).map(e => Leaf(e._1, e._2))
+//  }
+
+
+// USING SCALA LIST METHOD
+  def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = {
+    freqs.sortWith((x,y) => x._2 < y._2 ).map(e => Leaf(e._1, e._2))
+  }
+
   /**
    * Checks whether the list `trees` contains only one single code tree.
    */

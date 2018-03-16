@@ -52,3 +52,10 @@ compile
 exit
 run
 exit
+run
+exit
+import week4._
+console
+exit
+console
+exit
