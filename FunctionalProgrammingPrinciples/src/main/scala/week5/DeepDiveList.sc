@@ -67,3 +67,69 @@ val string = List("bonjour", "sibylle", "septmois", "afond")
 
 msort(num) // msort(num)(Ordering.Int)
 msort(string) // msort(string)(Ordering.String)
+
+// High order list functions
+def scaleList(xs: List[Double], factor: Double): List[Double] = xs match {
+  case Nil => Nil
+  case y :: ys => y * factor :: scaleList(ys, factor)
+}
+
+def mapScaleList(xs: List[Double], factor: Double): List[Double] = {
+  xs map (x => x * factor)
+}
+
+def squareList(xs: List[Int]): List[Int] = xs match {
+  case Nil => Nil
+  case head :: tail => head * head :: squareList(tail)
+}
+
+def mapSquareList(xs: List[Int]): List[Int] = {
+  xs map (x => x*x)
+}
+
+def posElem(xs: List[Int]): List[Int] = xs match {
+  case Nil => Nil
+  case head :: tail =>
+    if (head > 0) head :: posElem(tail)
+    else posElem(tail)
+}
+
+def filterPosElem(xs: List[Int]): List[Int] = {
+  xs filter (x => x > 0)
+}
+
+xs filter (x => x > 3)
+xs partition (x => x > 3)
+
+xs takeWhile (x => x < 5)
+xs dropWhile (x => x < 5)
+xs span (x => x < 5)
+
+def pack[T](xs: List[T]): List[List[T]] = xs match {
+  case Nil => Nil
+  case head :: tail =>
+    val (first, rest) = xs span (x => x == head)
+    first :: pack(rest)
+}
+
+pack(List("a", "a", "a", "b", "c", "c", "a"))
+
+def encode[T](xs: List[T]): List[(T, Int)] = {
+  val packed = pack(xs)
+
+  def encodeInter[T](ys: List[List[T]]): List[(T, Int)] = ys match {
+    case Nil => Nil
+    case head :: tail =>
+      (head.head, head.length) :: encodeInter(tail)
+  }
+
+  encodeInter(packed)
+}
+
+def mapEncode[T](xs: List[T]): List[(T, Int)] = {
+  pack(xs) map (x => (x.head, x.length))
+}
+
+encode(List("a", "a", "a", "b", "c", "c", "a"))
+
+mapEncode(List("a", "a", "a", "b", "c", "c", "a"))
