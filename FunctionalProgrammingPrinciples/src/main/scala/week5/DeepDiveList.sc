@@ -133,3 +133,15 @@ def mapEncode[T](xs: List[T]): List[(T, Int)] = {
 encode(List("a", "a", "a", "b", "c", "c", "a"))
 
 mapEncode(List("a", "a", "a", "b", "c", "c", "a"))
+
+// Fold operations
+xs.product
+xs reduceLeft ((x, y) => x * y)
+(xs foldLeft 1) (_ * _) // 1 is the accumulator
+
+def concat[T](xs: List[T], ys: List[T]): List[T] =
+  (xs foldRight ys) (_ :: _)
+
+1 :: 2 :: 3 :: List(4,5,6) // Step by step in concat
+
+concat(List(1,2,3), List(4,5,6))
