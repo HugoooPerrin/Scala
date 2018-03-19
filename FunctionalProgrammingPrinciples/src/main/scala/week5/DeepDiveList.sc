@@ -145,3 +145,12 @@ def concat[T](xs: List[T], ys: List[T]): List[T] =
 1 :: 2 :: 3 :: List(4,5,6) // Step by step in concat
 
 concat(List(1,2,3), List(4,5,6))
+
+import math.pow
+pow(2,4)
+
+// Structural induction
+// Show that Property P(Nil) hold and that for all list xs
+// and element x then P(xs) => P(x :: xs)
+// RECURRENCE
+
