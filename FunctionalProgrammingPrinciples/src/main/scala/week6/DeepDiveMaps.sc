@@ -96,11 +96,9 @@ val mnemonics = Map(
 
 import scala.io.Source
 
-val in = Source.fromURL("http://lamp.epfl.ch/files/content/sites/lamp/files/teaching/progfun/linuxwords.txt")
+val in = Source.fromFile("/home/hugoperrin/Bureau/DataScience/Languages/Scala/FunctionalProgrammingPrinciples/forcomp/src/main/resources/forcomp/linuxwords.txt")
 
-// val words = in.getLines.toList filter (word => word forall (chr = > chr.isLetter))
-val words = List("apple", "fruit", "pinapple", "grappes", "orange")
-
+val words = in.getLines.toList filter (word => word forall (chr => chr.isLetter))
 
 val charCode: Map[Char, Char] =
   for {
