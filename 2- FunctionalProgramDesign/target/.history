@@ -1,2 +1,7 @@
 compile
 exit
+compile
+import org.scalacheck.Prop.forAll
+console
+compile
+exit
