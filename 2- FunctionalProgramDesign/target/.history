@@ -5,3 +5,8 @@ import org.scalacheck.Prop.forAll
 console
 compile
 exit
+compile
+run
+compile
+console
+exit
