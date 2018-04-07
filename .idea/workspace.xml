@@ -3,51 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="0ffb4ed3-93ea-4176-9627-3153fcae0f10" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/config-classes/$58aa0669aff03fec528a$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/config-classes/$58aa0669aff03fec528a.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/config-classes/$58aa0669aff03fec528a.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/default/root-2-functionalprogramdesign-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/default/root-2-functionalprogramdesign-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/default/root-2-functionalprogramdesign-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/default/root-2-functionalprogramdesign-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-compile-internal.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-compile.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-optional.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-plugin.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-pom.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-provided.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-runtime.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-scala-tool.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-test-internal.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-test.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-2-functionalprogramdesign-build-test.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/streams/$global/update/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week1/monads.sc" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week1/monads.sc" />
+      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/lazyEval.sc" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/lazyEval.sc" />
       <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/.history" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/.history" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/functionalprogramdesign/functionalprogramdesign_2.12/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/functionalprogramdesign/functionalprogramdesign_2.12/0.1/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/functionalprogramdesign/functionalprogramdesign_2.12/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/functionalprogramdesign/functionalprogramdesign_2.12/0.1/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-compile.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-optional.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-plugin.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-pom.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-provided.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-runtime.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-test.xml" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-test.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/$global/update/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/compile/$global/streams/out" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/compile/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/$global/$global/discoveredMainClasses/data" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/$global/$global/discoveredMainClasses/data" />
+      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
       <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/compileIncremental/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/runtime/managedClasspath/$global/streams/export" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,11 +34,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lazyEval.sc" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lazyEval.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/lazyEval.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="50" column="50" lean-forward="false" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+            <state relative-caret-position="1182">
+              <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComputationSpeed.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/ComputationSpeed.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -101,8 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/week1.sc" />
-        <option value="$PROJECT_DIR$/recfun/src/main/scala/recfun/recfun_ws.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/week2.sc" />
         <option value="$PROJECT_DIR$/funsets/src/main/scala/funsets/Test.sc" />
         <option value="$PROJECT_DIR$/funsets/src/main/scala/funsets/FunSets.scala" />
@@ -151,6 +123,8 @@
         <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week1/test.scala" />
         <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week1/monads.sc" />
         <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/time.scala" />
+        <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/EratosthenesSieve.sc" />
+        <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/ComputationSpeed.scala" />
         <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/lazyEval.sc" />
       </list>
     </option>
@@ -211,7 +185,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,7 +232,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -466,10 +440,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32805908" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2478903" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24867725" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12708333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.084895834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20520833" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -498,9 +472,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FunctionalProgrammingPrinciples/src/main/scala/week4/Nat.scala" />
-    <entry file="file://$PROJECT_DIR$/FunctionalProgrammingPrinciples/src/main/scala/week4/NBoolean.scala" />
-    <entry file="file://$PROJECT_DIR$/FunctionalProgrammingPrinciples/src/main/scala/week4/BestExpr.scala" />
     <entry file="file://$PROJECT_DIR$/FunctionalProgrammingPrinciples/src/main/scala/week4/Expr.scala" />
     <entry file="file://$PROJECT_DIR$/FunctionalProgrammingPrinciples/src/main/scala/week3/week3.sc" />
     <entry file="file://$PROJECT_DIR$/FunctionalProgrammingPrinciples/src/main/scala/week4/week4.sc" />
@@ -674,18 +645,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/time.scala">
+    <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/time.scala" />
+    <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/EratosthenesSieve.sc" />
+    <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/EratosthenesSieve.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/lazyEval.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="50" column="50" lean-forward="false" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+        <state relative-caret-position="1182">
+          <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/ComputationSpeed.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
