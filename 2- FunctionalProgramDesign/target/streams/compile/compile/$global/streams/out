@@ -1,10 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/src/main/scala/week1/test.scala:5:14: object scalacheck is not a member of package org[0m
-[0m[[0m[31merror[0m] [0m[0m  import org.scalacheck.Properties[0m
-[0m[[0m[31merror[0m] [0m[0m             ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/src/main/scala/week1/test.scala:6:14: object scalacheck is not a member of package org[0m
-[0m[[0m[31merror[0m] [0m[0m  import org.scalacheck.Prop.forAll[0m
-[0m[[0m[31merror[0m] [0m[0m             ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/src/main/scala/week1/test.scala:8:3: not found: value forAll[0m
-[0m[[0m[31merror[0m] [0m[0m  forAll {[0m
-[0m[[0m[31merror[0m] [0m[0m  ^[0m
-[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/src/main/scala/time.scala:3:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdef time[R](block: => R): R = {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

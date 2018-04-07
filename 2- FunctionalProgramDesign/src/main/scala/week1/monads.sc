@@ -7,7 +7,7 @@ def f(x: Int): Int = x*2
 list map f
 list flatMap (x => List(f(x)))
 list map (x => List(x*2)) flatten
-git
+
 
 /**
   * A monad M is a parametric type M[T] with two operations:
