@@ -45,16 +45,16 @@ class Pouring(capacity: Vector[Int]) {
 
     // def endState: State = (history foldRight initialState) (_ change _)
 
-    /**
-      * Recursive alternative:
-      *
-      *  def endState: State = trackState(history)
-      *
-      *  private def trackState(xs: History): State = xs match {
-      *  case Nil => initialState
-      *  case move :: tail => move change trackState(tail)
-      *  }
-      */
+    //
+    // Recursive alternative:
+    //
+    //  def endState: State = trackState(history)
+    //
+    //  private def trackState(xs: History): State = xs match {
+    //    case Nil => initialState
+    //    case move :: tail => move change trackState(tail)
+    //  }
+    //
 
     def extend(move: Move) = new Path(move :: history, move change endState)
 
