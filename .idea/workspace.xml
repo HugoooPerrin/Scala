@@ -3,15 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="0ffb4ed3-93ea-4176-9627-3153fcae0f10" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
       <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/lazyEval.sc" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/lazyEval.sc" />
       <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/.history" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/.history" />
+      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/classes/Comparator$.class" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/classes/Comparator$.class" />
+      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/functionalprogramdesign_2.12-0.1.jar" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/scala-2.12/functionalprogramdesign_2.12-0.1.jar" />
       <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/$global/$global/discoveredMainClasses/data" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/$global/$global/discoveredMainClasses/data" />
+      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/compile/$global/streams/out" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/compile/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
       <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/compileIncremental/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/mainClass/$global/streams/out" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/mainClass/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/packageBin/$global/streams/inputs" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/packageBin/$global/streams/inputs" />
+      <change beforePath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/packageBin/$global/streams/out" afterPath="$PROJECT_DIR$/2- FunctionalProgramDesign/target/streams/compile/packageBin/$global/streams/out" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,18 +40,38 @@
       <file leaf-file-name="lazyEval.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/lazyEval.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1182">
-              <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="110" column="29" lean-forward="false" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ComputationSpeed.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WaterPouring.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/WaterPouring.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-371">
+              <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WaterPouringMain.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/WaterPouringMain.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComputationSpeed.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/ComputationSpeed.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="375">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,10 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/week2.sc" />
-        <option value="$PROJECT_DIR$/funsets/src/main/scala/funsets/Test.sc" />
-        <option value="$PROJECT_DIR$/funsets/src/main/scala/funsets/FunSets.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Hello.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/week3.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/week2/Rationnal.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/week3/Hello2.scala" />
@@ -125,7 +144,11 @@
         <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/time.scala" />
         <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/EratosthenesSieve.sc" />
         <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/ComputationSpeed.scala" />
+        <option value="$PROJECT_DIR$/1- FunctionalProgrammingPrinciples/src/main/scala/week2/week2.sc" />
+        <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/WaterPouring.sc" />
         <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/lazyEval.sc" />
+        <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/WaterPouringMain.scala" />
+        <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/WaterPouring.scala" />
       </list>
     </option>
   </component>
@@ -135,7 +158,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="878" />
     <option name="width" value="1042" />
     <option name="height" value="1047" />
@@ -185,13 +208,76 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="1- FunctionalProgrammingPrinciples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="1- FunctionalProgrammingPrinciples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="1- FunctionalProgrammingPrinciples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="1- FunctionalProgrammingPrinciples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="1- FunctionalProgrammingPrinciples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="week2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="1- FunctionalProgrammingPrinciples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="week3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="1- FunctionalProgrammingPrinciples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="week4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="1- FunctionalProgrammingPrinciples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="week5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scala" type="b2602c69:ProjectViewProjectNode" />
@@ -232,8 +318,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -426,7 +511,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="1926" height="1050" extended-state="6" />
+    <frame x="-3" y="0" width="1926" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -440,10 +525,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32805908" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24867725" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32594937" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.084895834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1046875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20520833" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -472,9 +557,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FunctionalProgrammingPrinciples/src/main/scala/week4/Expr.scala" />
-    <entry file="file://$PROJECT_DIR$/FunctionalProgrammingPrinciples/src/main/scala/week3/week3.sc" />
-    <entry file="file://$PROJECT_DIR$/FunctionalProgrammingPrinciples/src/main/scala/week4/week4.sc" />
     <entry file="file://$PROJECT_DIR$/FunctionalProgrammingPrinciples/src/main/scala/week4/toRun.scala" />
     <entry file="file://$PROJECT_DIR$/FunctionalProgrammingPrinciples/patmat/src/main/HuffmanCode.sc" />
     <entry file="file://$PROJECT_DIR$/FunctionalProgrammingPrinciples/patmat/src/main/scala/patmat/HuffmanCode.sc" />
@@ -526,20 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1- FunctionalProgrammingPrinciples/src/main/scala/week2/Rationnal.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1- FunctionalProgrammingPrinciples/src/main/scala/week2/week2.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-501">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1- FunctionalProgrammingPrinciples/src/main/scala/week3/Hello.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -551,20 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1- FunctionalProgrammingPrinciples/src/main/scala/week3/List.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1- FunctionalProgrammingPrinciples/src/main/scala/week3/week3.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -631,13 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1- FunctionalProgrammingPrinciples/src/main/scala/week5/DeepDiveList.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1602">
-          <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1- FunctionalProgrammingPrinciples/src/main/scala/week6/DeepDiveCollections.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -651,22 +698,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1- FunctionalProgrammingPrinciples/src/main/scala/week2/week2.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="118" column="21" lean-forward="true" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1- FunctionalProgrammingPrinciples/src/main/scala/week2/Rationnal.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/WaterPouring.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1- FunctionalProgrammingPrinciples/src/main/scala/week5/DeepDiveList.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1- FunctionalProgrammingPrinciples/src/main/scala/week3/week3.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1- FunctionalProgrammingPrinciples/src/main/scala/week3/List.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/lazyEval.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1182">
-          <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+        <state relative-caret-position="408">
+          <caret line="110" column="29" lean-forward="false" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/ComputationSpeed.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/WaterPouringMain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/WaterPouring.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-371">
+          <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
           <folding />
         </state>
       </provider>
