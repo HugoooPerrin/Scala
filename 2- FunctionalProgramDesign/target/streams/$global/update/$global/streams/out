@@ -20,7 +20,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.5 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.5 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.10;2.2.1 {compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.scalatest#scalatest_2.10;2.2.1 {compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/hugoperrin/.ivy2/local/org.scalatest/scalatest_2.10/2.2.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried C:\Users\HPERRIN\.ivy2\local\org.scalatest\scalatest_2.10\2.2.1\ivys\ivy.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.scalatest#scalatest_2.10;2.2.1[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.scalatest#scalatest_2.10;2.2.1[0m
@@ -29,8 +29,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.pom.sha1[0m
 [0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.scalatest#scalatest_2.10;2.2.1!scalatest_2.10.pom(pom.original) (50ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/hugoperrin/.ivy2/local/org.scalatest/scalatest_2.10/2.2.1/bundles/scalatest_2.10.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.scalatest#scalatest_2.10;2.2.1!scalatest_2.10.pom(pom.original) (62ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried C:\Users\HPERRIN\.ivy2\local\org.scalatest\scalatest_2.10\2.2.1\bundles\scalatest_2.10.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.scalatest#scalatest_2.10;2.2.1 in public[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies functionalprogramdesign#functionalprogramdesign_2.12;0.1->org.scalatest#scalatest_2.10;2.2.1 [compile->runtime][0m
@@ -743,28 +743,60 @@
 [0m[[0m[0mdebug[0m] [0m[0mignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator[0m
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.5!scala-library.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.5!jline.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.5!scala-compiler.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.5!jline.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.5!scala-reflect.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.5!scala-reflect.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\HPERRIN\.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\HPERRIN\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (0ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\HPERRIN\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.5!scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\HPERRIN\.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\HPERRIN\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (15ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\HPERRIN\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar.sha1[0m
 [0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar[0m
-[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scalatest#scalatest_2.10;2.2.1!scalatest_2.10.jar(bundle) (4118ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 681ms :: artifacts dl 4124ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 compile produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-compile.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 runtime produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-runtime.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 test produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-test.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 provided produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-provided.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 optional produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-optional.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 compile-internal produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-compile-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 runtime-internal produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-runtime-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 test-internal produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-test-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 plugin produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-plugin.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 pom produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-pom.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 scala-tool produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/resolution-cache/reports/functionalprogramdesign-functionalprogramdesign_2.12-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (681ms resolve - 4124ms download)[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scalatest#scalatest_2.10;2.2.1!scalatest_2.10.jar(bundle) (541ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 1448ms :: artifacts dl 897ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 compile produced in C:\Users\HPERRIN\Desktop\Scala\2- FunctionalProgramDesign\target\scala-2.12\resolution-cache\reports\functionalprogramdesign-functionalprogramdesign_2.12-compile.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 runtime produced in C:\Users\HPERRIN\Desktop\Scala\2- FunctionalProgramDesign\target\scala-2.12\resolution-cache\reports\functionalprogramdesign-functionalprogramdesign_2.12-runtime.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 test produced in C:\Users\HPERRIN\Desktop\Scala\2- FunctionalProgramDesign\target\scala-2.12\resolution-cache\reports\functionalprogramdesign-functionalprogramdesign_2.12-test.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 provided produced in C:\Users\HPERRIN\Desktop\Scala\2- FunctionalProgramDesign\target\scala-2.12\resolution-cache\reports\functionalprogramdesign-functionalprogramdesign_2.12-provided.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 optional produced in C:\Users\HPERRIN\Desktop\Scala\2- FunctionalProgramDesign\target\scala-2.12\resolution-cache\reports\functionalprogramdesign-functionalprogramdesign_2.12-optional.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 compile-internal produced in C:\Users\HPERRIN\Desktop\Scala\2- FunctionalProgramDesign\target\scala-2.12\resolution-cache\reports\functionalprogramdesign-functionalprogramdesign_2.12-compile-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 runtime-internal produced in C:\Users\HPERRIN\Desktop\Scala\2- FunctionalProgramDesign\target\scala-2.12\resolution-cache\reports\functionalprogramdesign-functionalprogramdesign_2.12-runtime-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 test-internal produced in C:\Users\HPERRIN\Desktop\Scala\2- FunctionalProgramDesign\target\scala-2.12\resolution-cache\reports\functionalprogramdesign-functionalprogramdesign_2.12-test-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 plugin produced in C:\Users\HPERRIN\Desktop\Scala\2- FunctionalProgramDesign\target\scala-2.12\resolution-cache\reports\functionalprogramdesign-functionalprogramdesign_2.12-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 pom produced in C:\Users\HPERRIN\Desktop\Scala\2- FunctionalProgramDesign\target\scala-2.12\resolution-cache\reports\functionalprogramdesign-functionalprogramdesign_2.12-pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for functionalprogramdesign#functionalprogramdesign_2.12;0.1 scala-tool produced in C:\Users\HPERRIN\Desktop\Scala\2- FunctionalProgramDesign\target\scala-2.12\resolution-cache\reports\functionalprogramdesign-functionalprogramdesign_2.12-scala-tool.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (1448ms resolve - 897ms download)[0m
 [0m[[0m[0minfo[0m] [0m[0mDone updating.[0m

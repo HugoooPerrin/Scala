@@ -55,10 +55,10 @@ trait StringParserTerrain extends GameDef {
   def terrainFunction(levelVector: Vector[Vector[Char]]): Pos => Boolean = {
 
     def isOnTerrain(position: Pos): Boolean = {
-      if (position.row > levelVector.length) false
-      else if (position.col > levelVector(position.row).length) false
-      else if (levelVector(position.row)(position.col) == '-') false
-      else true
+      !((position.row < 0 || position.col < 0) ||
+        (position.row > levelVector.length -1) ||
+        (position.col > levelVector(position.row).length -1) ||
+        (levelVector(position.row)(position.col) == '-'))
     }
 
     isOnTerrain
@@ -84,5 +84,4 @@ trait StringParserTerrain extends GameDef {
   lazy val terrain: Terrain = terrainFunction(vector)
   lazy val startPos: Pos = findChar('S', vector)
   lazy val goal: Pos = findChar('T', vector)
-
 }

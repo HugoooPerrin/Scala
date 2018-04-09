@@ -13,3 +13,6 @@ val s1 = Stream(1,2,5)
 val s2 = Stream(4,8,9)
 
 (s1 ++ s2).toList
+
+val set = Set(1,2,3)
+set + 4

@@ -19,31 +19,31 @@ object Bloxorz extends App {
   /**
    * A simple level constructed using the StringParserTerrain
    */
-  abstract class Level extends Solver with StringParserTerrain
-
-  object Level0 extends Level {
-    val level =
-      """------
-        |--ST--
-        |--oo--
-        |--oo--
-        |------""".stripMargin
-  }
-
-  println(Level0.solution)
-
-  /**
-   * Level 1 of the official Bloxorz game
-   */
-  object Level1 extends Level {
-    val level =
-      """ooo-------
-        |oSoooo----
-        |ooooooooo-
-        |-ooooooooo
-        |-----ooToo
-        |------ooo-""".stripMargin
-  }
-
-  println(Level1.solution)
+//  abstract class Level extends Solver with StringParserTerrain
+//
+//  object Level0 extends Level {
+//    val level =
+//      """------
+//        |--ST--
+//        |--oo--
+//        |--oo--
+//        |------""".stripMargin
+//  }
+//
+//  println(Level0.solution)
+//
+//  /**
+//   * Level 1 of the official Bloxorz game
+//   */
+//  object Level1 extends Level {
+//    val level =
+//      """ooo-------
+//        |oSoooo----
+//        |ooooooooo-
+//        |-ooooooooo
+//        |-----ooToo
+//        |------ooo-""".stripMargin
+//  }
+//
+//  println(Level1.solution)
 }
