@@ -16,7 +16,7 @@ abstract class QuickCheckHeap extends Properties("Heap") with IntHeap {
 
   implicit lazy val arbHeap: Arbitrary[H] = Arbitrary(genHeap)
 
-  property("gen6") = forAll { (heap1: H, heap2: H) =>
+  property("gen") = forAll { (heap1: H, heap2: H) =>
     def heapEqual(heap1: H, heap2: H): Boolean =
       if (isEmpty(heap1) && isEmpty(heap2)) true
       else {
