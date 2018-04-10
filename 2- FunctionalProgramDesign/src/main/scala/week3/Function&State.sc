@@ -24,11 +24,13 @@ class BankAccount {
 
   def deposit(amount: Int): Unit = {
     if (amount > 0) balance = balance + amount
+    println(this)
   }
 
-  def withdraw(amount: Int): Int = {
+  def withdraw(amount: Int): Unit = {
     if (0 < amount && amount <= balance) {
       balance = balance - amount
+      println(this)
     } else throw new Error("Insufficient funds")
   }
 
@@ -36,6 +38,25 @@ class BankAccount {
 }
 
 val BNP = new BankAccount
-//BNP.deposit(1000)
-BNP.withdraw(450)
-println(BNP)
+BNP deposit 1000
+//println(BNP)
+BNP withdraw 450
+//println(BNP)
+
+/**
+  * It is important not to be confused between
+  * For-expressions (for () yield)
+  * For-loops (for () command)
+  */
+
+for {
+  i <- 1 to 3
+  j <- "abc"
+} println(i+j)
+
+var i = 0
+do {
+  i = i+1
+  println(i)
+} while (i < 20)
+
