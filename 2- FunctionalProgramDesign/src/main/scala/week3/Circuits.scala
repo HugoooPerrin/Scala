@@ -2,7 +2,7 @@ package DiscreteEventSimulation
 
 // Third class
 
-abstract class Circuits extends Gates {
+trait Circuits extends Gates {
 
   def halfAdder(a: Wire, b: Wire, s: Wire, c: Wire): Unit = {
     val d, e = new Wire

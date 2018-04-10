@@ -2,7 +2,7 @@ package DiscreteEventSimulation
 
 // Second class
 
-abstract class Gates extends Simulation {
+trait Gates extends Simulation {
 
   def inverterDelay: Int
   def andGateDelay: Int
