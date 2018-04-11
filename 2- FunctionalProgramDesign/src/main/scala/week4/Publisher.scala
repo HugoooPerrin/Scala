@@ -2,12 +2,12 @@ package frp
 
 trait Publisher {
 
-   private var subscribers: Set[Suscriber] = Set()
+   private var subscribers: Set[Subscriber] = Set()
 
-  def subscribe(subscriber: Suscriber): Unit =
+  def subscribe(subscriber: Subscriber): Unit =
     subscribers += subscriber
 
-  def unsubscribe(subscriber: Suscriber): Unit =
+  def unsubscribe(subscriber: Subscriber): Unit =
     subscribers -= subscriber
 
   def publish(): Unit =

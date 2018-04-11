@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/src/main/scala/week4/Publisher.scala:7:29: not found: type Suscriber[0m
+[0m[[0m[31merror[0m] [0m[0m  def subscribe(subscriber: Suscriber): Unit =[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/src/main/scala/week4/Publisher.scala:5:33: not found: type Suscriber[0m
+[0m[[0m[31merror[0m] [0m[0m   private var subscribers: Set[Suscriber] = Set()[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/src/main/scala/week4/Publisher.scala:10:31: not found: type Suscriber[0m
+[0m[[0m[31merror[0m] [0m[0m  def unsubscribe(subscriber: Suscriber): Unit =[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

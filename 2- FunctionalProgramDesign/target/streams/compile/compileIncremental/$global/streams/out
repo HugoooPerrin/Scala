@@ -2,29 +2,47 @@
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
 [0m[[0m[0mdebug[0m] [0m[0m	removed:Set(\home\hugoperrin\Bureau\DataScience\Languages\Scala\2- FunctionalProgramDesign\src\main\scala\week1\test.scala, C:\Users\HPERRIN\Desktop\Scala\2- FunctionalProgramDesign\src\main\scala\week1\test.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/src/main/scala/week3/Parameters.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/src/main/scala/week4/Suscriber.scala, /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/src/main/scala/week4/Main.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(DiscreteEventSimulation.Parameters)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(frp.Subscriber, FunctionalReactiveProgramming)[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(DiscreteEventSimulation.Parameters)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/src/main/scala/week3/Parameters.scala)[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(frp.Subscriber, FunctionalReactiveProgramming)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/src/main/scala/week4/Suscriber.scala, /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/src/main/scala/week4/Main.scala)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.5[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.5[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 243b806 for Scala compiler version 2.12.5[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 3b0cbc09 for Scala compiler version 2.12.5[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/hugoperrin/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.5.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes:/home/hugoperrin/.ivy2/cache/org.scalatest/scalatest_2.10/bundles/scalatest_2.10-2.2.1.jar:/home/hugoperrin/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.5.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.299054064 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.158223272 s[0m
 [0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from FunctionalReactiveProgramming...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(FunctionalReactiveProgramming)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(FunctionalReactiveProgramming)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(FunctionalReactiveProgramming,ModifiedNames(changes = UsedName(toString,[Default]), UsedName(getClass,[Default]), UsedName($asInstanceOf,[Default]), UsedName(executionStart,[Default]), UsedName(args,[Default]), UsedName(!=,[Default]), UsedName(clone,[Default]), UsedName($isInstanceOf,[Default]), UsedName($init$,[Default]), UsedName(delayedInit,[Default]), UsedName(c,[Default]), UsedName(main,[Default]), UsedName(finalize,[Default]), UsedName(ne,[Default]), UsedName(wait,[Default]), UsedName(FunctionalReactiveProgramming,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(synchronized,[Default]), UsedName(isInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName(hashCode,[Default]), UsedName(a,[Default]), UsedName(b,[Default]), UsedName(equals,[Default]), UsedName(notify,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]))) invalidates 1 classes due to The FunctionalReactiveProgramming has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(toString,[Default]), UsedName(getClass,[Default]), UsedName($asInstanceOf,[Default]), UsedName(executionStart,[Default]), UsedName(args,[Default]), UsedName(!=,[Default]), UsedName(clone,[Default]), UsedName($isInstanceOf,[Default]), UsedName($init$,[Default]), UsedName(delayedInit,[Default]), UsedName(c,[Default]), UsedName(main,[Default]), UsedName(finalize,[Default]), UsedName(ne,[Default]), UsedName(wait,[Default]), UsedName(FunctionalReactiveProgramming,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(synchronized,[Default]), UsedName(isInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName(hashCode,[Default]), UsedName(a,[Default]), UsedName(b,[Default]), UsedName(equals,[Default]), UsedName(notify,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(FunctionalReactiveProgramming)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from frp.FunctionalReactiveProgramming...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(frp.FunctionalReactiveProgramming)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(frp.FunctionalReactiveProgramming)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(frp.FunctionalReactiveProgramming,ModifiedNames(changes = UsedName(toString,[Default]), UsedName(getClass,[Default]), UsedName($asInstanceOf,[Default]), UsedName(executionStart,[Default]), UsedName(args,[Default]), UsedName(!=,[Default]), UsedName(clone,[Default]), UsedName($isInstanceOf,[Default]), UsedName($init$,[Default]), UsedName(delayedInit,[Default]), UsedName(c,[Default]), UsedName(main,[Default]), UsedName(finalize,[Default]), UsedName(ne,[Default]), UsedName(wait,[Default]), UsedName(FunctionalReactiveProgramming,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(synchronized,[Default]), UsedName(isInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName(hashCode,[Default]), UsedName(a,[Default]), UsedName(b,[Default]), UsedName(equals,[Default]), UsedName(notify,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]))) invalidates 1 classes due to The frp.FunctionalReactiveProgramming has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(toString,[Default]), UsedName(getClass,[Default]), UsedName($asInstanceOf,[Default]), UsedName(executionStart,[Default]), UsedName(args,[Default]), UsedName(!=,[Default]), UsedName(clone,[Default]), UsedName($isInstanceOf,[Default]), UsedName($init$,[Default]), UsedName(delayedInit,[Default]), UsedName(c,[Default]), UsedName(main,[Default]), UsedName(finalize,[Default]), UsedName(ne,[Default]), UsedName(wait,[Default]), UsedName(FunctionalReactiveProgramming,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(synchronized,[Default]), UsedName(isInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName(hashCode,[Default]), UsedName(a,[Default]), UsedName(b,[Default]), UsedName(equals,[Default]), UsedName(notify,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(frp.FunctionalReactiveProgramming)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
 [0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m

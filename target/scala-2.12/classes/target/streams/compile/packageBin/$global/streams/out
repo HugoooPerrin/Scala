@@ -1,0 +1,59 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/functionalprogramdesign_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	waterpouring/Pouring$Path.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/waterpouring/Pouring$Path.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	waterpouring/Pouring$Fill.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/waterpouring/Pouring$Fill.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiscreteEventSimulation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/DiscreteEventSimulation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiscreteEventSimulation/Simulation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/DiscreteEventSimulation/Simulation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	waterpouring[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/waterpouring[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiscreteEventSimulation/test$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/DiscreteEventSimulation/test$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Comparator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/Comparator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiscreteEventSimulation/test$simulation$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/DiscreteEventSimulation/test$simulation$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Comparator$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/Comparator$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WaterPouringSolver$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/WaterPouringSolver$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	waterpouring/Pouring$Move.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/waterpouring/Pouring$Move.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiscreteEventSimulation/Circuits.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/DiscreteEventSimulation/Circuits.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiscreteEventSimulation/test$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/DiscreteEventSimulation/test$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WaterPouringSolver.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/WaterPouringSolver.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	waterpouring/Pouring$Fill$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/waterpouring/Pouring$Fill$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	waterpouring/Pouring$Pour.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/waterpouring/Pouring$Pour.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiscreteEventSimulation/Simulation$Event$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/DiscreteEventSimulation/Simulation$Event$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiscreteEventSimulation/Simulation$Event.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/DiscreteEventSimulation/Simulation$Event.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	waterpouring/Pouring$Empty.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/waterpouring/Pouring$Empty.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WaterPouringSolver$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/WaterPouringSolver$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Comparator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/Comparator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	waterpouring/Pouring$Empty$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/waterpouring/Pouring$Empty$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiscreteEventSimulation/Gates$Wire.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/DiscreteEventSimulation/Gates$Wire.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiscreteEventSimulation/Parameters.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/DiscreteEventSimulation/Parameters.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	waterpouring/Pouring.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/waterpouring/Pouring.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	waterpouring/Pouring$Pour$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/waterpouring/Pouring$Pour$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiscreteEventSimulation/Gates.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/DiscreteEventSimulation/Gates.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiscreteEventSimulation/test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes/DiscreteEventSimulation/test.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

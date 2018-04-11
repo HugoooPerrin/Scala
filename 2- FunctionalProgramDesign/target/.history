@@ -31,3 +31,8 @@ exit
 run
 compile
 exit
+compile
+compile -depreciation
+-depreciation
+compile
+run

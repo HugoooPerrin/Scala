@@ -1,0 +1,78 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(\home\hugoperrin\Bureau\DataScience\Languages\Scala\2- FunctionalProgramDesign\src\main\scala\week1\test.scala, C:\Users\HPERRIN\Desktop\Scala\2- FunctionalProgramDesign\src\main\scala\week1\test.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/src/main/scala/week4/Consolidator.scala, /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/src/main/scala/week4/Suscriber.scala, /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/src/main/scala/week4/BankAccount.scala, /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/src/main/scala/week4/Publisher.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/src/main/scala/week4/Consolidator.scala, /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/src/main/scala/week4/Suscriber.scala, /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/src/main/scala/week4/BankAccount.scala, /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/src/main/scala/week4/Publisher.scala)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 4 Scala sources to /home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.5[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.5[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 36c693ec for Scala compiler version 2.12.5[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/hugoperrin/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/hugoperrin/Bureau/DataScience/Languages/Scala/2- FunctionalProgramDesign/target/scala-2.12/classes:/home/hugoperrin/.ivy2/cache/org.scalatest/scalatest_2.10/bundles/scalatest_2.10-2.2.1.jar:/home/hugoperrin/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 1.614925518 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from frp.Consolidator...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(frp.Consolidator)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(frp.Consolidator)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(frp.Consolidator,ModifiedNames(changes = UsedName(finalize,[Default]), UsedName(!=,[Default]), UsedName(notifyAll,[Default]), UsedName(totalBalance,[Default]), UsedName($asInstanceOf,[Default]), UsedName(hashCode,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(synchronized,[Default]), UsedName(notify,[Default]), UsedName(toString,[Default]), UsedName(ne,[Default]), UsedName(##,[Default]), UsedName(eq,[Default]), UsedName(asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(==,[Default]), UsedName($isInstanceOf,[Default]), UsedName(Consolidator,[Default]), UsedName(equals,[Default]), UsedName(frp;Consolidator;init;,[Default]), UsedName(handler,[Default]))) invalidates 1 classes due to The frp.Consolidator has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]), UsedName(!=,[Default]), UsedName(notifyAll,[Default]), UsedName(totalBalance,[Default]), UsedName($asInstanceOf,[Default]), UsedName(hashCode,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(synchronized,[Default]), UsedName(notify,[Default]), UsedName(toString,[Default]), UsedName(ne,[Default]), UsedName(##,[Default]), UsedName(eq,[Default]), UsedName(asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(==,[Default]), UsedName($isInstanceOf,[Default]), UsedName(Consolidator,[Default]), UsedName(equals,[Default]), UsedName(frp;Consolidator;init;,[Default]), UsedName(handler,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(frp.Consolidator)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from frp.Subscriber...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(frp.Subscriber)[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding frp.Consolidator by frp.Subscriber[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(frp.Consolidator, frp.Subscriber)[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of frp.Publisher: Set(UsedName(Subscriber,[Default]), UsedName(handler,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of frp.Consolidator: Set(UsedName(Subscriber,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(frp.Subscriber,ModifiedNames(changes = UsedName(finalize,[Default]), UsedName(!=,[Default]), UsedName(notifyAll,[Default]), UsedName($asInstanceOf,[Default]), UsedName(hashCode,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(synchronized,[Default]), UsedName(notify,[Default]), UsedName(Subscriber,[Default]), UsedName(toString,[Default]), UsedName(ne,[Default]), UsedName(##,[Default]), UsedName(eq,[Default]), UsedName(asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(==,[Default]), UsedName($isInstanceOf,[Default]), UsedName(equals,[Default]), UsedName(handler,[Default]))) invalidates 3 classes due to The frp.Subscriber has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]), UsedName(!=,[Default]), UsedName(notifyAll,[Default]), UsedName($asInstanceOf,[Default]), UsedName(hashCode,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(synchronized,[Default]), UsedName(notify,[Default]), UsedName(Subscriber,[Default]), UsedName(toString,[Default]), UsedName(ne,[Default]), UsedName(##,[Default]), UsedName(eq,[Default]), UsedName(asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(==,[Default]), UsedName($isInstanceOf,[Default]), UsedName(equals,[Default]), UsedName(handler,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(frp.Consolidator, frp.Subscriber)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(frp.Publisher, frp.Consolidator)[0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from frp.BankAccount...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(frp.BankAccount)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(frp.BankAccount)[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of frp.Consolidator: Set(UsedName(BankAccount,[Default]), UsedName(currentBalance,[Default]), UsedName(subscribe,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(frp.BankAccount,ModifiedNames(changes = UsedName(withdraw,[Default]), UsedName(finalize,[Default]), UsedName(!=,[Default]), UsedName(BankAccount,[Default]), UsedName(notifyAll,[Default]), UsedName($asInstanceOf,[Default]), UsedName($init$,[Default]), UsedName(currentBalance,[Default]), UsedName(hashCode,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(synchronized,[Default]), UsedName(notify,[Default]), UsedName(toString,[Default]), UsedName(ne,[Default]), UsedName(##,[Default]), UsedName(publish,[Default]), UsedName(deposit,[Default]), UsedName(eq,[Default]), UsedName(asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(==,[Default]), UsedName(unsubscribe,[Default]), UsedName(subscribe,[Default]), UsedName($isInstanceOf,[Default]), UsedName(equals,[Default]), UsedName(frp;BankAccount;init;,[Default]))) invalidates 2 classes due to The frp.BankAccount has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(withdraw,[Default]), UsedName(finalize,[Default]), UsedName(!=,[Default]), UsedName(BankAccount,[Default]), UsedName(notifyAll,[Default]), UsedName($asInstanceOf,[Default]), UsedName($init$,[Default]), UsedName(currentBalance,[Default]), UsedName(hashCode,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(synchronized,[Default]), UsedName(notify,[Default]), UsedName(toString,[Default]), UsedName(ne,[Default]), UsedName(##,[Default]), UsedName(publish,[Default]), UsedName(deposit,[Default]), UsedName(eq,[Default]), UsedName(asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(==,[Default]), UsedName(unsubscribe,[Default]), UsedName(subscribe,[Default]), UsedName($isInstanceOf,[Default]), UsedName(equals,[Default]), UsedName(frp;BankAccount;init;,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(frp.BankAccount)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(frp.Consolidator)[0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from frp.Publisher...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(frp.Publisher)[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding frp.BankAccount by frp.Publisher[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(frp.BankAccount, frp.Publisher)[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of frp.Consolidator: Set(UsedName(Publisher,[Default]), UsedName(subscribe,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of frp.Subscriber: Set(UsedName(Publisher,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of frp.BankAccount: Set(UsedName(Publisher,[Default]), UsedName(publish,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of frp.Consolidator: Set(UsedName(Publisher,[Default]), UsedName(subscribe,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(frp.Publisher,ModifiedNames(changes = UsedName(finalize,[Default]), UsedName(!=,[Default]), UsedName(notifyAll,[Default]), UsedName($asInstanceOf,[Default]), UsedName($init$,[Default]), UsedName(hashCode,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(Publisher,[Default]), UsedName(getClass,[Default]), UsedName(synchronized,[Default]), UsedName(notify,[Default]), UsedName(toString,[Default]), UsedName(ne,[Default]), UsedName(##,[Default]), UsedName(publish,[Default]), UsedName(eq,[Default]), UsedName(asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(==,[Default]), UsedName(unsubscribe,[Default]), UsedName(subscribe,[Default]), UsedName($isInstanceOf,[Default]), UsedName(equals,[Default]))) invalidates 4 classes due to The frp.Publisher has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]), UsedName(!=,[Default]), UsedName(notifyAll,[Default]), UsedName($asInstanceOf,[Default]), UsedName($init$,[Default]), UsedName(hashCode,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(Publisher,[Default]), UsedName(getClass,[Default]), UsedName(synchronized,[Default]), UsedName(notify,[Default]), UsedName(toString,[Default]), UsedName(ne,[Default]), UsedName(##,[Default]), UsedName(publish,[Default]), UsedName(eq,[Default]), UsedName(asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(==,[Default]), UsedName(unsubscribe,[Default]), UsedName(subscribe,[Default]), UsedName($isInstanceOf,[Default]), UsedName(equals,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(frp.BankAccount, frp.Publisher)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(frp.Consolidator, frp.Subscriber, frp.BankAccount)[0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m

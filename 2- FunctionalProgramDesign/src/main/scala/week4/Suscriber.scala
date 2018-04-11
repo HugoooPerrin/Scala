@@ -1,5 +1,5 @@
 package frp
 
 trait Subscriber {
-  def handler(pub: Publisher)
+  def handler(pub: Publisher): Unit
 }
