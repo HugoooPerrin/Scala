@@ -283,11 +283,11 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.5!scala-library.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.5!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.5!scala-reflect.jar(src)
-[debug] :: resolution report :: resolve 13ms :: artifacts dl 5ms
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.5!scala-compiler.jar(src)
+[debug] :: resolution report :: resolve 19ms :: artifacts dl 3ms
 [debug] 	report for 3-parallelprogramming#3-parallelprogramming$sources;0.1 compile produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming$sources-compile.xml
 [debug] 	report for 3-parallelprogramming#3-parallelprogramming$sources;0.1 runtime produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming$sources-runtime.xml
 [debug] 	report for 3-parallelprogramming#3-parallelprogramming$sources;0.1 test produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming$sources-test.xml
@@ -299,4 +299,4 @@
 [debug] 	report for 3-parallelprogramming#3-parallelprogramming$sources;0.1 plugin produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming$sources-plugin.xml
 [debug] 	report for 3-parallelprogramming#3-parallelprogramming$sources;0.1 pom produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming$sources-pom.xml
 [debug] 	report for 3-parallelprogramming#3-parallelprogramming$sources;0.1 scala-tool produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming$sources-scala-tool.xml
-[debug] 	resolve done (13ms resolve - 5ms download)
+[debug] 	resolve done (19ms resolve - 3ms download)
