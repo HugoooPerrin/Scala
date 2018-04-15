@@ -3,12 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="0ffb4ed3-93ea-4176-9627-3153fcae0f10" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/Basis.sc" afterPath="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/Basis.sc" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/ParallelismJVM.sc" afterPath="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/ParallelismJVM.sc" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/.history" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/.history" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/3-parallelprogramming_2.12-0.1.jar" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/3-parallelprogramming_2.12-0.1.jar" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/$global/$global/discoveredMainClasses/data" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/$global/$global/discoveredMainClasses/data" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compile/$global/streams/out" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compile/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compileIncremental/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/packageBin/$global/streams/inputs" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/packageBin/$global/streams/inputs" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/packageBin/$global/streams/out" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/packageBin/$global/streams/out" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,8 +39,8 @@
       <file leaf-file-name="ParallelismJVM.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/ParallelismJVM.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+            <state relative-caret-position="405">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,8 +49,28 @@
       <file leaf-file-name="Basis.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/Basis.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="377">
+              <caret line="105" column="1" lean-forward="false" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParallelFunc.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/ParallelFunc.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MonteCarloPiEstimate.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/MonteCarloPiEstimate.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -54,18 +79,18 @@
       <file leaf-file-name="Atomicity.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/Atomicity.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+            <state relative-caret-position="392">
+              <caret line="50" column="15" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="50" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SynchronizedBlock.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SynchronizedBlock.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/SynchronizedBlock.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+            <state relative-caret-position="240">
+              <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -92,8 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FunctionalProgrammingPrinciples/patmat/src/main/scala/patmat/worksheet.scala" />
-        <option value="$PROJECT_DIR$/FunctionalProgrammingPrinciples/patmat/src/main/scala/patmat/Huffman.scala" />
         <option value="$PROJECT_DIR$/FunctionalProgrammingPrinciples/src/main/scala/week5/DeepDiveList.sc" />
         <option value="$PROJECT_DIR$/FunctionalProgrammingPrinciples/src/main/scala/week6/DeepDiveCollections.sc" />
         <option value="$PROJECT_DIR$/FunctionalProgrammingPrinciples/src/main/scala/week5/DeepDiveSets.sc" />
@@ -139,10 +162,12 @@
         <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/calculator/src/main/scala/calculator/TweetLength.scala" />
         <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/calculator/src/main/scala/calculator/Polynomial.scala" />
         <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/calculator/src/main/scala/calculator/Calculator.scala" />
-        <option value="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/Basis.sc" />
         <option value="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/Atomicity.scala" />
-        <option value="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/ParallelismJVM.sc" />
         <option value="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/SynchronizedBlock.scala" />
+        <option value="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/MonteCarloPiEstimate.scala" />
+        <option value="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/Basis.sc" />
+        <option value="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/ParallelismJVM.sc" />
+        <option value="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/ParallelFunc.scala" />
       </list>
     </option>
   </component>
@@ -153,8 +178,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="809" />
-    <option name="width" value="1111" />
+    <option name="x" value="806" />
+    <option name="width" value="1114" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -191,6 +216,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,15 +250,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="3- ParallelProgramming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="week1" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -248,7 +265,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="Scratches" />
     </panes>
@@ -443,12 +459,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="809" y="0" width="1111" height="1047" extended-state="0" />
+    <frame x="806" y="0" width="1114" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32172996" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31540084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31534392" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -457,10 +473,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767764" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26772487" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.405291" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17737557" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14801444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20520833" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -489,14 +505,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1- FunctionalProgrammingPrinciples/src/main/scala/week4/Expr.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/time.scala" />
     <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/EratosthenesSieve.sc" />
     <entry file="file://$PROJECT_DIR$/1- FunctionalProgrammingPrinciples/src/main/scala/week2/week2.sc">
       <provider selected="true" editor-type-id="text-editor">
@@ -644,13 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/ComputationSpeed.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/EratosthenesSieve.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -770,34 +771,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/ComputationSpeed.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/Basis.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/ParallelismJVM.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/Atomicity.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        <state relative-caret-position="377">
+          <caret line="105" column="1" lean-forward="false" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/SynchronizedBlock.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+        <state relative-caret-position="240">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/MonteCarloPiEstimate.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/Atomicity.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="50" column="15" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="50" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/ParallelismJVM.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/ParallelFunc.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>

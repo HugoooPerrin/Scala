@@ -10,10 +10,14 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/SynchronizedBlock$Account$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SynchronizedBlock$Account.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/SynchronizedBlock$Account.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MonteCarloPi$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/MonteCarloPi$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Atomicity$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/Atomicity$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Atomicity$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/Atomicity$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MonteCarloPi$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/MonteCarloPi$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SynchronizedBlock$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/SynchronizedBlock$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SynchronizedBlock$.class[0m
@@ -22,6 +26,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/SynchronizedBlock.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Atomicity$$anon$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/Atomicity$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MonteCarloPi.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/MonteCarloPi.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SynchronizedBlock$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/SynchronizedBlock$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SynchronizedBlock$Account$.class[0m
