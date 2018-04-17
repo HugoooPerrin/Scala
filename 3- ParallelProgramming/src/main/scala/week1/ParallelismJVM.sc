@@ -24,7 +24,8 @@
   *       acquired resources.
   *
   *       Happen when no order is set between thread locking
+  *
+  * => Benchmarking:
+  *       Compare and measure parallelization performance
   */
-
-
 
