@@ -26,7 +26,8 @@ object Lists {
     def sum(xs: List[Int]): Int = {
 
       def sumInter(xs: List[Int], acc: Int): Int = xs match {
-        case Nil => acc
+        case Nil => throw new Error("Sum of empty list")
+        case x :: Nil => acc + x
         case x :: ys => sumInter(ys, x + acc)
       }
 
@@ -47,6 +48,8 @@ object Lists {
    * @throws java.util.NoSuchElementException if `xs` is an empty list
    */
     def max(xs: List[Int]): Int = xs match {
+
+      case Nil => throw new Error("Max of empty list")
       case x :: Nil => x
       case x :: y :: ys =>
         if (x > y) max(x :: ys)
