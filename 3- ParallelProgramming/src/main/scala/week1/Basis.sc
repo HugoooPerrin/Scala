@@ -106,10 +106,10 @@ def segmentRec(a: Array[Int], p: Double, s: Int, t: Int, threshold: Int): Double
 }
 
 
-import org.scalameter._
+import org.scalameter.api._
 
 val time = measure {
-(0 until 1000000).toArray
+  (0 until 1000000).toArray
 }
 
 println(s"Array initialization time : $time ms")
