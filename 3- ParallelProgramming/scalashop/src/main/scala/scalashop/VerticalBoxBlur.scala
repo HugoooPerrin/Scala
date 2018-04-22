@@ -2,6 +2,7 @@ package scalashop
 
 import org.scalameter._
 import common._
+import math.{floor, max}
 
 object VerticalBoxBlurRunner {
 
@@ -9,13 +10,13 @@ object VerticalBoxBlurRunner {
     Key.exec.minWarmupRuns -> 5,
     Key.exec.maxWarmupRuns -> 10,
     Key.exec.benchRuns -> 10,
-    Key.verbose -> true
+    Key.verbose -> false
   ) withWarmer(new Warmer.Default)
 
   def main(args: Array[String]): Unit = {
     val radius = 3
-    val width = 1920
-    val height = 1080
+    val width = 32
+    val height = 64
     val src = new Img(width, height)
     val dst = new Img(width, height)
     val seqtime = standardConfig measure {
@@ -43,8 +44,11 @@ object VerticalBoxBlur {
    *  bottom.
    */
   def blur(src: Img, dst: Img, from: Int, end: Int, radius: Int): Unit = {
-    // TODO implement this method using the `boxBlurKernel` method
-    ???
+    for {
+      x <- from until end
+      y <- 0 until src.height
+      if x >= 0 && x < src.width
+    } (dst.update(x, y, boxBlurKernel(src, x, y, radius)))
   }
 
   /** Blurs the columns of the source image in parallel using `numTasks` tasks.
@@ -54,8 +58,20 @@ object VerticalBoxBlur {
    *  columns.
    */
   def parBlur(src: Img, dst: Img, numTasks: Int, radius: Int): Unit = {
-    // TODO implement using the `task` construct and the `blur` method
-    ???
+    val startingPoints = (0 to src.width by max(src.width/numTasks,1)).toList
+    val endingPoints = startingPoints.tail ::: src.width :: Nil
+
+    val strips = startingPoints zip endingPoints
+    println("Real task number: " + strips.length + "vs" + numTasks)
+
+    val tasks = strips.map({
+      case (from, end) =>
+        task {
+          blur(src, dst, from, end, radius)
+        }
+    })
+
+    tasks.map(t => t.join())
   }
 
 }

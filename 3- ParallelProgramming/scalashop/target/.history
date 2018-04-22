@@ -1,0 +1,29 @@
+console
+compile
+run
+compile
+run
+run 3
+run [3]
+run
+compile
+test
+compile
+runMain scalashop.VerticalBoxBlurRunner
+runMain scalashop.HorizontalBoxBlurRunner
+runMain scalashop.ScalaShop
+submit hugo5.perrin@essec.edu RcUiaj7RItLfjzoT
+submit hugo5.perrin@hotmail.fr RcUiaj7RItLfjzoT
+submit hugo5.perrin@hotmail.fr GWBOXNDZD6qhffJg
+test
+submit hugo5.perrin@hotmail.fr RcUiaj7RItLfjzoT
+test
+submit hugo5.perrin@hotmail.fr RcUiaj7RItLfjzoT
+test
+submit hugo5.perrin@hotmail.fr GWBOXNDZD6qhffJg
+submit hugo5.perrin@hotmail.fr RcUiaj7RItLfjzoT
+submit hugo5.perrin@hotmail.fr GWBOXNDZD6qhffJg
+submit hugo5.perrin@hotmail.fr RcUiaj7RItLfjzoT
+submit hugo5.perrin@hotmail.fr Md4Lo7lIUPcMibnu
+runMain scalashop.VerticalBoxBlurRunner
+console 

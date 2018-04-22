@@ -2,6 +2,7 @@ package scalashop
 
 import org.scalameter._
 import common._
+import math.{floor,max}
 
 object HorizontalBoxBlurRunner {
 
@@ -9,7 +10,7 @@ object HorizontalBoxBlurRunner {
     Key.exec.minWarmupRuns -> 5,
     Key.exec.maxWarmupRuns -> 10,
     Key.exec.benchRuns -> 10,
-    Key.verbose -> true
+    Key.verbose -> false
   ) withWarmer(new Warmer.Default)
 
   def main(args: Array[String]): Unit = {
@@ -23,7 +24,7 @@ object HorizontalBoxBlurRunner {
     }
     println(s"sequential blur time: $seqtime ms")
 
-    val numTasks = 32
+    val numTasks = 64
     val partime = standardConfig measure {
       HorizontalBoxBlur.parBlur(src, dst, numTasks, radius)
     }
@@ -42,9 +43,11 @@ object HorizontalBoxBlur {
    *  Within each row, `blur` traverses the pixels by going from left to right.
    */
   def blur(src: Img, dst: Img, from: Int, end: Int, radius: Int): Unit = {
-  // TODO implement this method using the `boxBlurKernel` method
-
-  ???
+    for {
+      y <- from until end
+      x <- 0 until src.width
+      if y >= 0 && y < src.height
+    } (dst.update(x, y, boxBlurKernel(src, x, y, radius)))
   }
 
   /** Blurs the rows of the source image in parallel using `numTasks` tasks.
@@ -54,9 +57,29 @@ object HorizontalBoxBlur {
    *  rows.
    */
   def parBlur(src: Img, dst: Img, numTasks: Int, radius: Int): Unit = {
-  // TODO implement using the `task` construct and the `blur` method
+    val startingPoints = (0 to src.height by max(src.height/numTasks,1)).toList
+    val endingPoints = startingPoints.tail ::: src.height :: Nil
 
-  ???
+    val strips = startingPoints zip endingPoints
+
+    val tasks = strips.map({
+      case (from, end) =>
+        task {
+          blur(src, dst, from, end, radius)
+        }
+    })
+
+    tasks.map(t => t.join())
+
+//    val stripSize:Int = max(src.width / numTasks,1)
+//    val startPoints = Range(0, src.width) by stripSize
+//
+//    val tasks = startPoints.map(start => {
+//      task {
+//        blur(src, dst, start, start + stripSize, radius)
+//      }
+//    })
+//
+//    tasks.map(t => t.join())
   }
-
 }

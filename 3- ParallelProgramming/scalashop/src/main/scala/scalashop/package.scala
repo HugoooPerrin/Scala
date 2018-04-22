@@ -39,8 +39,51 @@ package object scalashop {
 
   /** Computes the blurred RGBA value of a single pixel of the input image. */
   def boxBlurKernel(src: Img, x: Int, y: Int, radius: Int): RGBA = {
-    // TODO implement using while loops
-    ???
-  }
 
+    // Definition of cases to account for
+    val left = clamp(x-radius, 0, src.width-1)
+    val right = clamp(x+radius, 0, src.width-1)
+    val up = clamp(y-radius, 0, src.height-1)
+    val down = clamp(y+radius, 0, src.height-1)
+
+    // Computation of case number
+    val caseNumber = (right - left + 1) * (down - up + 1)
+
+    // Two for-loop to obtain the sum of each component
+    var r_sum, g_sum, b_sum, a_sum = 0
+
+    for (i <- left to right) {
+      for (j <- up to down) {
+
+        val pixel = src(i, j)
+
+        r_sum += red(pixel)
+        g_sum += green(pixel)
+        b_sum += blue(pixel)
+        a_sum += alpha(pixel)
+      }
+    }
+
+    // Final mean value
+    rgba(r_sum/caseNumber, g_sum/caseNumber, b_sum/caseNumber, a_sum/caseNumber)
+
+    // Nice alternative
+//    val pixels = {
+//      for {
+//        i <- -radius to radius
+//        j <- -radius to radius
+//      } yield (clamp(x + i, 0, src.width - 1), clamp(y + j, 0, src.height - 1))
+//    }.distinct.map({
+//      case (x, y) =>
+//        val pixel = src(x, y)
+//        (red(pixel), green(pixel), blue(pixel), alpha(pixel))
+//    })
+//
+//    rgba(
+//      pixels.map(_._1).sum / pixels.length,
+//      pixels.map(_._2).sum / pixels.length,
+//      pixels.map(_._3).sum / pixels.length,
+//      pixels.map(_._4).sum / pixels.length
+//    )
+  }
 }
