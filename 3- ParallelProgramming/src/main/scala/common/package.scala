@@ -21,7 +21,7 @@ package object common {
     val t0 = System.nanoTime()
     val result = block    // call-by-name
     val t1 = System.nanoTime()
-    val time = (t1 - t0)/1000000
+    val time = (t1 - t0)/1000
     (result, time)
   }
 
@@ -51,7 +51,7 @@ package object common {
     scheduler.value.parallel(taskA, taskB)
   }
 
-  def parallel[A, B, C, D, E, F, G, H](taskA: => A, taskB: => B, taskC: => C, taskD: => D,
+/*  def parallel[A, B, C, D, E, F, G, H](taskA: => A, taskB: => B, taskC: => C, taskD: => D,
                                        taskE: => E, taskF: => F, taskG: => G, taskH: => H): (A, B, C, D, E, F, G, H) = {
     val ta = task { taskA }
     val tb = task { taskB }
@@ -62,5 +62,5 @@ package object common {
     val tg = task { taskG }
     val th = taskH
     (ta.join(), tb.join(), tc.join(), td.join(), te.join(), tf.join(), tg.join(), th)
-  }
+  }*/
 }

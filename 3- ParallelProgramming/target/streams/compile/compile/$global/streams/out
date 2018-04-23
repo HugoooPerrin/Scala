@@ -1,4 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\src\main\scala\week1\MonteCarloPiEstimate.scala:28:19: value join is not a member of Int[0m
-[0m[[0m[31merror[0m] [0m[0m    4.0*(pi.map(_.join()).sum)/iter[0m
-[0m[[0m[31merror[0m] [0m[0m                  ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\src\main\scala\week2\ParallelSorting.scala:70:34: value toInt is not a member of org.scalameter.Quantity[Double][0m
+[0m[[0m[31merror[0m] [0m[0m    println(s"Speedup: ${seqtime.toInt / partime.toInt}")[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\src\main\scala\week2\ParallelSorting.scala:70:50: value toInt is not a member of org.scalameter.Quantity[Double][0m
+[0m[[0m[31merror[0m] [0m[0m    println(s"Speedup: ${seqtime.toInt / partime.toInt}")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

@@ -30,3 +30,13 @@ runMain parallel.MonteCarloPi
 compile
 runMain parallel.MonteCarloPi
 exit
+compile
+run
+runMain parallel.ParallelSorting
+compile
+exit
+compile
+runMain parallel.ParallelSorting
+compile
+runMain parallel.ParallelSorting
+exit
