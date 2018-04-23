@@ -21,29 +21,24 @@ object MonteCarloPi extends App {
   def monteCarloPiSeq(iter: Int): Double = 4.0*mcCount(iter)/iter
 
   def monteCarloPiPar(iter: Int, numTask: Int): Double = {
-    val (pi1, pi2, pi3, pi4, pi5, pi6, pi7, pi8) =
-      parallel(mcCount(floor(iter/8).toInt),
-        mcCount(floor(iter/8).toInt),
-        mcCount(floor(iter/8).toInt),
-        mcCount(floor(iter/8).toInt),
-        mcCount(floor(iter/8).toInt),
-        mcCount(floor(iter/8).toInt),
-        mcCount(floor(iter/8).toInt),
-        mcCount(iter - 7*floor(iter/8).toInt))
-    4.0*(pi1 + pi2 + pi3 + pi4 + pi5 + pi6 + pi7 + pi8)/iter
+
+    val pi = (1 to numTask).map(_ => numTask)
+    val tasks = pi.map(x => task { mcCount(iter/x) })
+
+    4.0*(tasks.map(_.join()).sum)/iter
   }
 
   val seqtime = time{
-    monteCarloPiSeq(10000000)
+    monteCarloPiSeq(100000000)
   }
-  println("sequential time:" + seqtime._2)
+  println("sequential time : " + seqtime._2)
 
+  // Optimal value: number of available threads
   val partime = time{
-    monteCarloPiPar(10000000)
+    monteCarloPiPar(100000000, 4)
   }
 
-  println(s"parallel time:" + partime._2)
+  println(s"parallel time : " + partime._2)
 
   println(s"speedup: ${seqtime._2.toFloat / partime._2}")
-
 }

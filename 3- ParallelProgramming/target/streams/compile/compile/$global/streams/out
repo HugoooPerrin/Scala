@@ -1,6 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\src\main\scala\common\package.scala:25:14: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Long[0m
-[0m[[0m[31merror[0m] [0m[0m required: Int[0m
-[0m[[0m[31merror[0m] [0m[0m    (result, time)[0m
-[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\src\main\scala\week1\MonteCarloPiEstimate.scala:28:19: value join is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    4.0*(pi.map(_.join()).sum)/iter[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

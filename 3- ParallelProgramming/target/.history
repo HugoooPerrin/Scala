@@ -25,3 +25,8 @@ compile
 run
 runMain parallel.MonteCarloPi
 exit
+run
+runMain parallel.MonteCarloPi
+compile
+runMain parallel.MonteCarloPi
+exit
