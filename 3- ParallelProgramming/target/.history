@@ -14,3 +14,14 @@ run
 compile
 run
 compile
+exit
+compile
+runMain MonteCarloPiEstimate
+compile
+exit
+compile
+exit
+compile
+run
+runMain parallel.MonteCarloPi
+exit

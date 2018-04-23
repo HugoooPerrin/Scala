@@ -27,3 +27,13 @@ submit hugo5.perrin@hotmail.fr RcUiaj7RItLfjzoT
 submit hugo5.perrin@hotmail.fr Md4Lo7lIUPcMibnu
 runMain scalashop.VerticalBoxBlurRunner
 console 
+run
+exit
+run
+compile
+run
+runMain parallel.MonteCarloPiEstimate
+run
+runMain parallel.MonteCarloPi
+compile
+exit

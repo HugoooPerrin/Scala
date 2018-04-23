@@ -32,6 +32,14 @@ package object common {
     }
   }
 
+  def time[R](block: => R): R = {
+    val t0 = System.nanoTime()
+    val result = block    // call-by-name
+    val t1 = System.nanoTime()
+    println("Elapsed time: " + (t1 - t0)/1000000 + "ms")
+    result
+  }
+
   val scheduler =
     new DynamicVariable[TaskScheduler](new DefaultTaskScheduler)
 
@@ -43,11 +51,16 @@ package object common {
     scheduler.value.parallel(taskA, taskB)
   }
 
-  def parallel[A, B, C, D](taskA: => A, taskB: => B, taskC: => C, taskD: => D): (A, B, C, D) = {
+  def parallel[A, B, C, D, E, F, G, H](taskA: => A, taskB: => B, taskC: => C, taskD: => D,
+                                       taskE: => E, taskF: => F, taskG: => G, taskH: => H): (A, B, C, D, E, F, G, H) = {
     val ta = task { taskA }
     val tb = task { taskB }
     val tc = task { taskC }
-    val td = taskD
-    (ta.join(), tb.join(), tc.join(), td)
+    val td = task { taskD }
+    val te = task { taskE }
+    val tf = task { taskF }
+    val tg = task { taskG }
+    val th = taskH
+    (ta.join(), tb.join(), tc.join(), td.join(), te.join(), tf.join(), tg.join(), th)
   }
 }

@@ -2,17 +2,9 @@ package parallel
 
 object MonteCarloPi extends App {
 
+  import common._
   import scala.util.Random
   import scala.math.floor
-  import parallel.Parallel._
-
-  def time[R](block: => R): R = {
-    val t0 = System.nanoTime()
-    val result = block    // call-by-name
-    val t1 = System.nanoTime()
-    println("Elapsed time: " + (t1 - t0)/1000000 + "ms")
-    result
-  }
 
   def mcCount(iter: Int): Int = {
     val randomX = new Random
@@ -28,13 +20,30 @@ object MonteCarloPi extends App {
 
   def monteCarloPiSeq(iter: Int): Double = 4.0*mcCount(iter)/iter
 
-  def monteCarloPiPar(iter: Int): Double = {
-    val ((pi1, pi2), (pi3, pi4)) = parallel(
-      parallel(mcCount(floor(iter/4).toInt), mcCount(floor(iter/4).toInt)),
-      parallel(mcCount(floor(iter/4).toInt), mcCount(iter - 3*floor(iter/4).toInt))
-    )
-    4.0*(pi1 + pi2 + pi3 + pi4)/iter
+  def monteCarloPiPar(iter: Int, numTask: Int): Double = {
+    val (pi1, pi2, pi3, pi4, pi5, pi6, pi7, pi8) =
+      parallel(mcCount(floor(iter/8).toInt),
+        mcCount(floor(iter/8).toInt),
+        mcCount(floor(iter/8).toInt),
+        mcCount(floor(iter/8).toInt),
+        mcCount(floor(iter/8).toInt),
+        mcCount(floor(iter/8).toInt),
+        mcCount(floor(iter/8).toInt),
+        mcCount(iter - 7*floor(iter/8).toInt))
+    4.0*(pi1 + pi2 + pi3 + pi4 + pi5 + pi6 + pi7 + pi8)/iter
   }
 
-  println(time{monteCarloPiSeq(100000000)})
+  val seqtime = time{
+    monteCarloPiSeq(10000000)
+  }
+  println("sequential time:" + seqtime._2)
+
+  val partime = time{
+    monteCarloPiPar(10000000)
+  }
+
+  println(s"parallel time:" + partime._2)
+
+  println(s"speedup: ${seqtime._2.toFloat / partime._2}")
+
 }

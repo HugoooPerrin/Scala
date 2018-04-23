@@ -1,7 +1,6 @@
-[0m[[0m[31merror[0m] [0m[0m/home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/src/main/scala/week1/shty.scala:3:14: object scalameter is not a member of package org[0m
-[0m[[0m[31merror[0m] [0m[0m  import org.scalameter.api._[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\src\main\scala\common\package.scala:25:14: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Long[0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m    (result, time)[0m
 [0m[[0m[31merror[0m] [0m[0m             ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/src/main/scala/week1/shty.scala:5:14: not found: value measure[0m
-[0m[[0m[31merror[0m] [0m[0m  val time = measure {[0m
-[0m[[0m[31merror[0m] [0m[0m             ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
