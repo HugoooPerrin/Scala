@@ -2,13 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ffb4ed3-93ea-4176-9627-3153fcae0f10" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/scala-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/scala-build.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/build.sbt" afterPath="$PROJECT_DIR$/3- ParallelProgramming/build.sbt" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/common/package.scala" afterPath="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/common/package.scala" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$009143379b39131e8a37$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$009143379b39131e8a37.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$009143379b39131e8a37.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$0ba50d21d5fc2c1fcaf3$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$0ba50d21d5fc2c1fcaf3.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$0ba50d21d5fc2c1fcaf3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$0cbb08ac061953147296$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$0cbb08ac061953147296.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$0cbb08ac061953147296.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$26ffc44b08253d079701$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$26ffc44b08253d079701.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$26ffc44b08253d079701.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$3fa833a8fcffc0ffe256$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$3fa833a8fcffc0ffe256.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$3fa833a8fcffc0ffe256.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$5f288bb9f0f8b21f97ad$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$5f288bb9f0f8b21f97ad.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$5f288bb9f0f8b21f97ad.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$cd1474404159770ead27$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$cd1474404159770ead27.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$cd1474404159770ead27.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/default/root-3-parallelprogramming-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/default/root-3-parallelprogramming-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/default/root-3-parallelprogramming-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/default/root-3-parallelprogramming-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-compile-internal.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-compile.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-optional.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-plugin.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-pom.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-provided.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-runtime.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-scala-tool.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-test-internal.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-test.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-test.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/$global/update/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/MonteCarloPiEstimate.scala" afterPath="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/MonteCarloPiEstimate.scala" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/.history" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/.history" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/3-parallelprogramming_2.12-0.1.jar" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/3-parallelprogramming_2.12-0.1.jar" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/classes/common/package$.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/classes/common/package$.class" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/classes/common/package.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/classes/common/package.class" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/classes/parallel/MonteCarloPi$.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/classes/parallel/MonteCarloPi$.class" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/classes/parallel/MonteCarloPi.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/classes/parallel/MonteCarloPi.class" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/classes/parallel/ParallelSorting$.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/classes/parallel/ParallelSorting$.class" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/3-parallelprogramming/3-parallelprogramming_2.12/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/3-parallelprogramming/3-parallelprogramming_2.12/0.1/resolved.xml.properties" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/3-parallelprogramming/3-parallelprogramming_2.12/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/3-parallelprogramming/3-parallelprogramming_2.12/0.1/resolved.xml.xml" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-compile-internal.xml" />
@@ -22,26 +68,53 @@
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-scala-tool.xml" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-test-internal.xml" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-test.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-test.xml" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/$global/update/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/$global/$global/discoveredMainClasses/data" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/$global/$global/discoveredMainClasses/data" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compile/$global/streams/out" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compile/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compileIncremental/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/exportedProductJars/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/exportedProductJars/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/managedClasspath/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/packageBin/$global/streams/inputs" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/packageBin/$global/streams/inputs" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/packageBin/$global/streams/out" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/packageBin/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/packageBin/$global/streams/output" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/packageBin/$global/streams/output" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/dependencyClasspathAsJars/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/dependencyClasspathAsJars/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/exportedProductJars/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/exportedProductJars/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/fullClasspathAsJars/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/fullClasspathAsJars/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/internalDependencyAsJars/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/internalDependencyAsJars/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala-build/scala_2.12/sbt_1.0/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala-build/scala_2.12/sbt_1.0/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala-build/scala_2.12/sbt_1.0/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala-build/scala_2.12/sbt_1.0/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-test.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-build-test.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scala$sources/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scala$sources/0.1-SNAPSHOT/resolved.xml.properties" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scala$sources/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scala$sources/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scala_2.12/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scala_2.12/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scala_2.12/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scala_2.12/0.1-SNAPSHOT/resolved.xml.xml" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala$sources-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala$sources-compile-internal.xml" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala$sources-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala$sources-compile.xml" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala$sources-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala$sources-optional.xml" />
@@ -53,8 +126,28 @@
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala$sources-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala$sources-scala-tool.xml" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala$sources-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala$sources-test-internal.xml" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala$sources-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala$sources-test.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_2.12-test.xml" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -80,8 +173,8 @@
       <file leaf-file-name="ParallelSorting.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week2/ParallelSorting.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="47" column="58" lean-forward="true" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
+            <state relative-caret-position="411">
+              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="70" selection-end-column="40" />
               <folding>
                 <element signature="e#18#33#0" expanded="true" />
               </folding>
@@ -89,12 +182,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Brouillon.sc" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week2/Brouillon.sc">
+      <file leaf-file-name="MonteCarloPiEstimate.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/MonteCarloPiEstimate.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="427">
+              <caret line="43" column="69" lean-forward="false" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="69" />
+              <folding>
+                <element signature="e#55#70#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,12 +260,12 @@
         <option value="$PROJECT_DIR$/3- ParallelProgramming/scalashop/src/main/scala/scalashop/MonteCarloPiEstimate.scala" />
         <option value="$PROJECT_DIR$/3- ParallelProgramming/scalashop/src/main/scala/common/package.scala" />
         <option value="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/ParallelismJVM.sc" />
-        <option value="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/MonteCarloPiEstimate.scala" />
         <option value="$PROJECT_DIR$/1- FunctionalProgrammingPrinciples/src/main/scala/week5/DeepDiveList.sc" />
         <option value="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/common/package.scala" />
         <option value="$PROJECT_DIR$/3- ParallelProgramming/build.sbt" />
         <option value="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week2/ParallelSorting.scala" />
         <option value="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week2/Brouillon.sc" />
+        <option value="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/MonteCarloPiEstimate.scala" />
       </list>
     </option>
   </component>
@@ -180,11 +275,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="236" />
-    <option name="y" value="-8" />
-    <option name="width" value="1106" />
-    <option name="height" value="1041" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="775" />
+    <option name="width" value="1145" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -220,6 +314,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="scala" type="58d84e3e:PackageViewProjectNode" />
+              <item name="scala-build" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,26 +368,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="week1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="3- ParallelProgramming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="week2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="scala" type="58d84e3e:PackageViewProjectNode" />
-              <item name="scala-build" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -414,7 +517,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1524500567307" />
+    <option name="lastUpdateTimestamp" value="1524514231475" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -481,12 +584,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="775" y="0" width="1145" height="1047" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32172996" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.314346" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -495,12 +596,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767764" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32131496" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32063493" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19166666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32309043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31223628" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20520833" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -511,10 +613,10 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.314346" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.171875" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -726,19 +828,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/scalashop/src/main/scala/scalashop/MonteCarloPiEstimate.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/scalashop/src/main/scala/scalashop/MonteCarloPiEstimate.scala" />
     <entry file="file://$PROJECT_DIR$/1- FunctionalProgrammingPrinciples/src/main/scala/week3/week3.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,7 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -754,7 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -762,7 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -770,7 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1346">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -778,7 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="62" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,17 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/MonteCarloPiEstimate.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="e#55#70#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,7 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="31" column="30" lean-forward="false" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,9 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="49" column="54" lean-forward="false" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
-          <folding>
-            <element signature="e#1#30#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -830,25 +904,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-618">
           <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week2/Brouillon.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week2/ParallelSorting.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="47" column="58" lean-forward="true" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
+        <state relative-caret-position="411">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="70" selection-end-column="40" />
           <folding>
             <element signature="e#18#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week2/Brouillon.sc">
+    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/MonteCarloPiEstimate.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="427">
+          <caret line="43" column="69" lean-forward="false" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="69" />
+          <folding>
+            <element signature="e#55#70#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

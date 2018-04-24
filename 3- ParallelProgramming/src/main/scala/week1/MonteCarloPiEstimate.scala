@@ -5,6 +5,14 @@ object MonteCarloPi extends App {
   import common._
   import scala.util.Random
   import scala.math.floor
+  import org.scalameter._
+
+  val standardConfig = config(
+    Key.exec.minWarmupRuns -> 5,
+    Key.exec.maxWarmupRuns -> 50,
+    Key.exec.benchRuns -> 10,
+    Key.verbose -> false
+  ) withWarmer(new Warmer.Default)
 
   def mcCount(iter: Int): Int = {
     val randomX = new Random
@@ -28,17 +36,13 @@ object MonteCarloPi extends App {
     4.0*(tasks.map(_.join()).sum)/iter
   }
 
-  val seqtime = time{
-    monteCarloPiSeq(100000000)
-  }
-  println("sequential time : " + seqtime._2)
+  // Sequential computation
+  val seqtime = standardConfig measure { monteCarloPiSeq(100000000) }
+  println(s"sequential time : $seqtime")
 
   // Optimal value: number of available threads
-  val partime = time{
-    monteCarloPiPar(100000000, 4)
-  }
+  val partime = standardConfig measure { monteCarloPiPar(100000000, 4) }
+  println(s"Parallel time : $partime")
 
-  println(s"parallel time : " + partime._2)
-
-  println(s"speedup: ${seqtime._2.toFloat / partime._2}")
+//  println(s"speedup: ${seqtime / partime}")
 }

@@ -40,3 +40,5 @@ runMain parallel.ParallelSorting
 compile
 runMain parallel.ParallelSorting
 exit
+runMain parallel.ParallelSorting
+runMain parallel.MonteCarloPi
