@@ -21,7 +21,6 @@ object Scan {
   val out = new Array[Int](array.length+1)
   val out2 = new Array[Int](array.length+1)
 
-  // Sequential scan
   def scanLeft(in: Array[Int], a0: Int, f: (Int, Int) => Int, out: Array[Int]): Unit = {
     out(0) = a0
     var a = a0
@@ -33,7 +32,6 @@ object Scan {
     }
   }
 
-  // Parallel scan: hypothesis on f being associative
   def scanLeftSeq(in: Array[Int], a0: Int, f: (Int, Int) => Int, out: Array[Int],
                   start: Int, end: Int): Unit = {
     out(start) = a0
