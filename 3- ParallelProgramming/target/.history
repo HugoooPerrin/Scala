@@ -42,3 +42,14 @@ runMain parallel.ParallelSorting
 exit
 runMain parallel.ParallelSorting
 runMain parallel.MonteCarloPi
+run
+runMain parallel.ScanParallel
+run
+runMain parallel.ScanParallel
+run
+runMain parallel.Scan
+clear
+runMain parallel.Scan
+compile
+runMain parallel.Scan
+exit

@@ -1,7 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\src\main\scala\week2\ParallelSorting.scala:70:34: value toInt is not a member of org.scalameter.Quantity[Double][0m
-[0m[[0m[31merror[0m] [0m[0m    println(s"Speedup: ${seqtime.toInt / partime.toInt}")[0m
-[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\src\main\scala\week2\ParallelSorting.scala:70:50: value toInt is not a member of org.scalameter.Quantity[Double][0m
-[0m[[0m[31merror[0m] [0m[0m    println(s"Speedup: ${seqtime.toInt / partime.toInt}")[0m
-[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\src\main\scala\week2\ScanParallel.scala:77:24: value === is not a member of List[Int][0m
+[0m[[0m[31merror[0m] [0m[0m    println(out.toList === out2.toList)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
