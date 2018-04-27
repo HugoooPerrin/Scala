@@ -1,0 +1,19 @@
+run
+runMain reductions.ParallelCountChange
+run
+runMain reductions.ParallelCountChangeRunner
+tes
+test
+runMain reductions.ParallelParenthesesBalancingRunner
+compile
+runMain reductions.ParallelParenthesesBalancingRunner
+last compile:runMain
+runMain reductions.ParallelParenthesesBalancingRunner
+test
+compile
+runMain reductions.ParallelParenthesesBalancingRunner
+compile
+runMain reductions.ParallelParenthesesBalancingRunner
+compile
+runMain reductions.ParallelParenthesesBalancingRunner
+exit

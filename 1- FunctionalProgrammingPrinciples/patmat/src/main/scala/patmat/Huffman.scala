@@ -109,7 +109,7 @@ object Huffman {
 //  }
 
 
-// USING SCALA LIST METHOD
+// USING SCALA LIST METHODS
   def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = {
     freqs.sortWith((x,y) => x._2 < y._2 ).map(e => Leaf(e._1, e._2))
   }
