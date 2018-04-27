@@ -9,15 +9,15 @@ object Scan {
   // Benchmark parameters
   val standardConfig = config(
     Key.exec.minWarmupRuns -> 5,
-    Key.exec.maxWarmupRuns -> 50,
+    Key.exec.maxWarmupRuns -> 15,
     Key.exec.benchRuns -> 10,
-    Key.verbose -> true
+    Key.verbose -> false
   ) withWarmer(new Warmer.Default)
 
   // Test values
   def fun(x: Int, y: Int): Int = x+y
   val a0 = 100
-  val array = Array.fill(800000)(100).map(nextInt)
+  val array = Array.fill(1000000)(100).map(nextInt)
   val out = new Array[Int](array.length+1)
   val out2 = new Array[Int](array.length+1)
 
@@ -107,12 +107,14 @@ object Scan {
 
   def main(args: Array[String]): Unit = {
 
+    // No impressive speedup :/
+
     // Sequential computation
     val seqtime = standardConfig measure { scanLeft(array, a0, fun, out) }
     println(s"sequential time : $seqtime")
 
     // Optimal value: number of available threads
-    val partime = standardConfig measure { scanLeftParallel(array, a0, fun, 100000, out2) }
+    val partime = standardConfig measure { scanLeftParallel(array, a0, fun, 250000, out2) }
     println(s"Parallel time : $partime")
 
 /*    // Coherence check
