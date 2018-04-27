@@ -53,3 +53,5 @@ runMain parallel.Scan
 compile
 runMain parallel.Scan
 exit
+compile
+runMain parallel.Scan

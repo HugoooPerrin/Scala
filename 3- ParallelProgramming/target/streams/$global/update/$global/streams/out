@@ -6306,122 +6306,16 @@
 [0m[[0m[0mdebug[0m] [0m[0mignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator[0m
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.8.4!jackson-databind.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\HPERRIN\.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\HPERRIN\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (45ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\HPERRIN\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0!nscala-time_2.12.0-RC1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\HPERRIN\.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\HPERRIN\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (72ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\HPERRIN\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-paranamer;2.8.4!jackson-module-paranamer.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.6.0!slf4j-api.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\HPERRIN\.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.mongodb#casbah-query_2.12.0-RC1;3.1.1!casbah-query_2.12.0-RC1.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.mongodb#casbah-commons_2.12.0-RC1;3.1.1!casbah-commons_2.12.0-RC1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\HPERRIN\.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.mongodb#mongo-java-driver;3.2.2!mongo-java-driver.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\HPERRIN\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\HPERRIN\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (37ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\HPERRIN\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\HPERRIN\.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\HPERRIN\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (12ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\HPERRIN\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.joda#joda-convert;1.2!joda-convert.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\HPERRIN\.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\HPERRIN\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (10ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\HPERRIN\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (87ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\HPERRIN\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.mongodb#casbah-gridfs_2.12.0-RC1;3.1.1!casbah-gridfs_2.12.0-RC1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-scala_2.12;2.8.4!jackson-module-scala_2.12.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\HPERRIN\.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\HPERRIN\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (13ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\HPERRIN\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/hugoperrin/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (4ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/hugoperrin/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
@@ -6430,16 +6324,68 @@
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.5!scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/hugoperrin/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (4ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.mongodb#casbah-gridfs_2.12.0-RC1;3.1.1!casbah-gridfs_2.12.0-RC1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.mongodb#casbah-query_2.12.0-RC1;3.1.1!casbah-query_2.12.0-RC1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/hugoperrin/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-scala_2.12;2.8.4!jackson-module-scala_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/hugoperrin/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (4ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (4ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/hugoperrin/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.mongodb#casbah-core_2.12.0-RC1;3.1.1!casbah-core_2.12.0-RC1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\HPERRIN\.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\HPERRIN\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (11ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\HPERRIN\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (5ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/hugoperrin/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
@@ -6447,26 +6393,23 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.5!jline.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.5!scala-compiler.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\HPERRIN\.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] joda-time#joda-time;2.9.4!joda-time.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.8.4!jackson-core.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\HPERRIN\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.8.4!jackson-annotations.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.storm-enroute#scalameter-core_2.12;0.8.2!scalameter-core_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.spray#spray-json_2.12;1.3.2!spray-json_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/hugoperrin/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.storm-enroute#scalameter_2.12;0.8.2!scalameter_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (14ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\HPERRIN\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/hugoperrin/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (167ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/hugoperrin/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
@@ -6474,20 +6417,9 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-math3;3.2!commons-math3.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\HPERRIN\.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.ow2.asm#asm;5.0.4!asm.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\HPERRIN\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/HPERRIN/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (11ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\HPERRIN\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (144ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/hugoperrin/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
@@ -6496,17 +6428,165 @@
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.5!scala-reflect.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 664ms :: artifacts dl 936ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 compile produced in C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\resolution-cache\reports\3-parallelprogramming-3-parallelprogramming_2.12-compile.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 runtime produced in C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\resolution-cache\reports\3-parallelprogramming-3-parallelprogramming_2.12-runtime.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 test produced in C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\resolution-cache\reports\3-parallelprogramming-3-parallelprogramming_2.12-test.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 provided produced in C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\resolution-cache\reports\3-parallelprogramming-3-parallelprogramming_2.12-provided.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 optional produced in C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\resolution-cache\reports\3-parallelprogramming-3-parallelprogramming_2.12-optional.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 compile-internal produced in C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\resolution-cache\reports\3-parallelprogramming-3-parallelprogramming_2.12-compile-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 runtime-internal produced in C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\resolution-cache\reports\3-parallelprogramming-3-parallelprogramming_2.12-runtime-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 test-internal produced in C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\resolution-cache\reports\3-parallelprogramming-3-parallelprogramming_2.12-test-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 plugin produced in C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\resolution-cache\reports\3-parallelprogramming-3-parallelprogramming_2.12-plugin.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 pom produced in C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\resolution-cache\reports\3-parallelprogramming-3-parallelprogramming_2.12-pom.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 scala-tool produced in C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\resolution-cache\reports\3-parallelprogramming-3-parallelprogramming_2.12-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (664ms resolve - 936ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.ow2.asm#asm;5.0.4!asm.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.joda#joda-convert;1.2!joda-convert.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.8.4!jackson-databind.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/hugoperrin/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (4ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/hugoperrin/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (4ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.5!scala-compiler.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.8.4!jackson-core.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.8.4!jackson-annotations.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/hugoperrin/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/hugoperrin/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] joda-time#joda-time;2.9.4!joda-time.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.storm-enroute#scalameter-core_2.12;0.8.2!scalameter-core_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.spray#spray-json_2.12;1.3.2!spray-json_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0!nscala-time_2.12.0-RC1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.6.0!slf4j-api.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-math3;3.2!commons-math3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-paranamer;2.8.4!jackson-module-paranamer.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.5!jline.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.mongodb#mongo-java-driver;3.2.2!mongo-java-driver.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/hugoperrin/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/hugoperrin/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/hugoperrin/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (46ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/hugoperrin/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (26ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (6ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/hugoperrin/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (6ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (8ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (8ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/hugoperrin/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 674ms :: artifacts dl 390ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 compile produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-compile.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 runtime produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-runtime.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 test produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-test.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 provided produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-provided.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 optional produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-optional.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 compile-internal produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-compile-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 runtime-internal produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-runtime-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 test-internal produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-test-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 plugin produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 pom produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for 3-parallelprogramming#3-parallelprogramming_2.12;0.1 scala-tool produced in /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-scala-tool.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (674ms resolve - 390ms download)[0m
 [0m[[0m[0minfo[0m] [0m[0mDone updating.[0m

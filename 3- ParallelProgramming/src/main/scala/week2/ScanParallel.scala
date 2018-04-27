@@ -9,18 +9,20 @@ object Scan {
   // Benchmark parameters
   val standardConfig = config(
     Key.exec.minWarmupRuns -> 5,
-    Key.exec.maxWarmupRuns -> 20,
+    Key.exec.maxWarmupRuns -> 50,
     Key.exec.benchRuns -> 10,
-    Key.verbose -> false
+    Key.verbose -> true
   ) withWarmer(new Warmer.Default)
 
   // Test values
   def fun(x: Int, y: Int): Int = x+y
   val a0 = 100
-  val array = Array.fill(10)(100).map(nextInt)
+  val array = Array.fill(800000)(100).map(nextInt)
   val out = new Array[Int](array.length+1)
   val out2 = new Array[Int](array.length+1)
 
+
+  // Sequential
   def scanLeft(in: Array[Int], a0: Int, f: (Int, Int) => Int, out: Array[Int]): Unit = {
     out(0) = a0
     var a = a0
@@ -32,32 +34,76 @@ object Scan {
     }
   }
 
-  def scanLeftSeq(in: Array[Int], a0: Int, f: (Int, Int) => Int, out: Array[Int],
-                  start: Int, end: Int): Unit = {
-    out(start) = a0
+  /**
+    * Parallel implementation:
+    * 1 - Turn the array into a tree with intermediate results (upsweep)
+    * 2 - Parallel computation on subtrees (downsweep)
+    * 3 - Add first element (prepend)
+    */
+
+  sealed abstract class TreeRes {
+    val res: Int
+  }
+  case class Leaf(from: Int, to: Int,
+                  override val res: Int) extends TreeRes
+  case class Node(left: TreeRes,
+                  override val res: Int,
+                  right: TreeRes) extends TreeRes
+
+  def reduceSeg(input: Array[Int], left: Int, right: Int,
+                a0: Int, f: (Int, Int) => Int): Int = {
     var a = a0
-    var i = start
-    while (i < end) {
-      a = f(a, in(i))
+    var i = left
+    while (i < right) {
+      a = f(a, input(i))
       i += 1
-      out(i) = a
     }
+    a
   }
 
-  def scanLeftParallel(in: Array[Int], a0: Int, f: (Int, Int) => Int, out: Array[Int],
-                       start: Int, end: Int, threshold: Int): Unit = {
-
-    if (end - start < threshold)  scanLeftSeq(in, a0, f, out, start, end)
+  def upsweep(input: Array[Int], from: Int, to: Int,
+              f: (Int, Int) => Int, threshold: Int): TreeRes = {
+    if (to - from < threshold)
+      Leaf(from, to, reduceSeg(input, from + 1, to, input(from), f))
     else {
-      val mid = (start + end) / 2
-      val t1 = task { scanLeftParallel(in, a0, f, out, start, mid, threshold) }
-      val t2 = task { scanLeftParallel(in, a0, f, out, mid, end, threshold) }
-      t1.join()
-      t2.join()
-      for (i <- mid+1 to end) {out(i) = f(out(mid), out(i))} // Because f is assumed to be associative
+      val mid = from + (to - from)/2
+      val (treeLeft, treeRight) = parallel(upsweep(input, from, mid, f, threshold),
+                                           upsweep(input, mid, to, f, threshold))
+      Node(treeLeft, f(treeLeft.res, treeRight.res), treeRight)
     }
-
   }
+
+  def scanLeftSeg(input: Array[Int], left: Int, right: Int,
+                  a0: Int, f: (Int, Int) => Int, out: Array[Int]) = {
+    if (left < right) {
+      var i = left
+      var a = a0
+      while (i < right) {
+        a = f(a, input(i))
+        i += 1
+        out(i) = a
+      }
+    }
+  }
+
+  def downsweep(input: Array[Int], a0: Int, f: (Int, Int) => Int,
+                tree: TreeRes, out: Array[Int]): Unit = tree match {
+    case Leaf(from, to, res) =>
+      scanLeftSeg(input, from, to, a0, f, out)     // Sequential computation on leaf (arrays of size threshold)
+    case Node(left, _, right) => {
+      val (_, _) = parallel(downsweep(input, a0, f, left, out),
+                            downsweep(input, f(a0, left.res), f, right, out))
+    }
+  }
+
+  def scanLeftParallel(input: Array[Int],
+                       a0: Int, f: (Int, Int) => Int, threshold: Int,
+                       out: Array[Int]) = {
+    val intermediateTree = upsweep(input, 0, input.length, f, threshold)
+    downsweep(input, a0, f, intermediateTree, out)
+    out(0) = a0
+  }
+
 
   def main(args: Array[String]): Unit = {
 
@@ -66,14 +112,14 @@ object Scan {
     println(s"sequential time : $seqtime")
 
     // Optimal value: number of available threads
-    val partime = standardConfig measure { scanLeftParallel(array, a0, fun, out2, 0, array.length, 60) }
+    val partime = standardConfig measure { scanLeftParallel(array, a0, fun, 100000, out2) }
     println(s"Parallel time : $partime")
 
-    // Coherence check
+/*    // Coherence check
     scanLeft(array, a0, fun, out)
-    scanLeftParallel(array, a0, fun, out2, 0, array.length, 5)
+    scanLeftParallel(array, a0, fun, 20, out2)
     println(out.toList)
-    println(out2.toList)
+    println(out2.toList)*/
   }
 }
 

@@ -1,67 +1,77 @@
-[0m[[0m[0minfo[0m] [0m[0mPackaging C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\3-parallelprogramming_2.12-0.1.jar ...[0m
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/3-parallelprogramming_2.12-0.1.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	common\package$DefaultTaskScheduler.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\common\package$DefaultTaskScheduler.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Atomicity$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\Atomicity$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Atomicity.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\Atomicity.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	parallel\MonteCarloPi$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\parallel\MonteCarloPi$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SynchronizedBlock$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\SynchronizedBlock$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	parallel\Parallel.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\parallel\Parallel.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	parallel\Parallel$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\parallel\Parallel$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Atomicity$$anon$3.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\Atomicity$$anon$3.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	parallel\Scan.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\parallel\Scan.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SynchronizedBlock$Account$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\SynchronizedBlock$Account$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	NoAtomicity.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\NoAtomicity.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	common\package$DefaultTaskScheduler$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\common\package$DefaultTaskScheduler$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	common\package.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\common\package.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Atomicity$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\Atomicity$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	common\package$TaskScheduler.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\common\package$TaskScheduler.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SynchronizedBlock$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\SynchronizedBlock$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	common\package$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\common\package$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SynchronizedBlock$Account$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\SynchronizedBlock$Account$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	NoAtomicity$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\NoAtomicity$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SynchronizedBlock$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\SynchronizedBlock$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	common[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\common[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SynchronizedBlock.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\SynchronizedBlock.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SynchronizedBlock$Account.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\SynchronizedBlock$Account.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	parallel\ParallelSorting.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\parallel\ParallelSorting.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Atomicity$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\Atomicity$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	parallel[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\parallel[0m
-[0m[[0m[0mdebug[0m] [0m[0m	NoAtomicity$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\NoAtomicity$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	parallel\ParallelSorting$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\parallel\ParallelSorting$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/NoAtomicity.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	NoAtomicity$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\NoAtomicity$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	parallel\Scan$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\parallel\Scan$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	parallel\MonteCarloPi.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\parallel\MonteCarloPi.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	parallel\MonteCarloPi$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\target\scala-2.12\classes\parallel\MonteCarloPi$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/NoAtomicity$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	common/package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/common/package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	NoAtomicity$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/NoAtomicity$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SynchronizedBlock$Account$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/SynchronizedBlock$Account$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SynchronizedBlock$Account.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/SynchronizedBlock$Account.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	parallel/Scan$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/parallel/Scan$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	parallel/Scan$TreeRes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/parallel/Scan$TreeRes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Atomicity$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/Atomicity$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Atomicity$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/Atomicity$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	parallel/ParallelSorting$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/parallel/ParallelSorting$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	common/package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/common/package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	common[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/common[0m
+[0m[[0m[0mdebug[0m] [0m[0m	parallel/Scan$Node.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/parallel/Scan$Node.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SynchronizedBlock$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/SynchronizedBlock$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	common/package$DefaultTaskScheduler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/common/package$DefaultTaskScheduler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	common/package$TaskScheduler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/common/package$TaskScheduler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SynchronizedBlock$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/SynchronizedBlock$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SynchronizedBlock.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/SynchronizedBlock.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Atomicity$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/Atomicity$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	parallel/Scan$Node$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/parallel/Scan$Node$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	parallel/Scan.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/parallel/Scan.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SynchronizedBlock$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/SynchronizedBlock$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	parallel/Parallel.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/parallel/Parallel.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SynchronizedBlock$Account$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/SynchronizedBlock$Account$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	parallel/Scan$Leaf$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/parallel/Scan$Leaf$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Atomicity.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/Atomicity.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	common/package$DefaultTaskScheduler$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/common/package$DefaultTaskScheduler$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	parallel/MonteCarloPi.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/parallel/MonteCarloPi.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	NoAtomicity$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/NoAtomicity$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Atomicity$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/Atomicity$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	parallel/MonteCarloPi$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/parallel/MonteCarloPi$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	parallel[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/parallel[0m
+[0m[[0m[0mdebug[0m] [0m[0m	parallel/Parallel$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/parallel/Parallel$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	parallel/MonteCarloPi$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/parallel/MonteCarloPi$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	parallel/Scan$Leaf.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/parallel/Scan$Leaf.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	parallel/ParallelSorting.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/target/scala-2.12/classes/parallel/ParallelSorting.class[0m
 [0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

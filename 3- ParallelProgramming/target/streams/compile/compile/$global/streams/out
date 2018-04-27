@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\src\main\scala\week2\ScanParallel.scala:77:24: value === is not a member of List[Int][0m
-[0m[[0m[31merror[0m] [0m[0m    println(out.toList === out2.toList)[0m
-[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hugoperrin/Bureau/DataScience/Languages/Scala/3- ParallelProgramming/src/main/scala/week2/ScanParallel.scala:115:92: too many arguments (7) for method scanLeftParallel: (input: Array[Int], a0: Int, f: (Int, Int) => Int, threshold: Int, out: Array[Int])Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    val partime = standardConfig measure { scanLeftParallel(array, a0, fun, out2, 0, array.length, 100000) }[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                           ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
