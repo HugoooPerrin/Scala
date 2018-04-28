@@ -49,3 +49,5 @@ val t1 = Array(1, 7, 8, 9)
 val t2 = Array(7, 8, 6, 1)
 
 t1 ++ t2
+
+6/3

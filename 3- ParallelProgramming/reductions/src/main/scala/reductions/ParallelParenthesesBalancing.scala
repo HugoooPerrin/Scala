@@ -62,10 +62,14 @@ object ParallelParenthesesBalancing {
       var opened = 0
       var closed = 0
 
-      for (i <- from until until) {
+      var i = from
+
+      while (i < until) {
         if (chars(i) == '(') opened += 1
         else if (chars(i) == ')' && opened > 0) opened -= 1
         else if (chars(i) == ')' && opened <= 0) closed +=1
+
+        i += 1
       }
 
       (opened, closed)

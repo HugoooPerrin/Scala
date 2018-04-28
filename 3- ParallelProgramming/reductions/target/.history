@@ -37,3 +37,23 @@ test
 run
 submit hugo5.perrin@hotmail.fr AH7N2FTrHFndiawV
 runMain reductions.ParallelParenthesesBalancingRunner
+submit hugo5.perrin@hotmail.fr YTuKXMQaKqOFCDvb
+test
+run
+runMain reductions.LineOfSightRunner
+test
+run
+compile
+run 
+submit hugo5.perrin@hotmail.fr YTuKXMQaKqOFCDvb
+submit hugo5.perrin@hotmail.fr AH7N2FTrHFndiawV
+test
+run
+submit hugo5.perrin@hotmail.fr AH7N2FTrHFndiawV
+test
+run
+test
+submit hugo5.perrin@hotmail.fr AH7N2FTrHFndiawV
+exit
+submit hugo5.perrin@hotmail.fr AH7N2FTrHFndiawV
+exit

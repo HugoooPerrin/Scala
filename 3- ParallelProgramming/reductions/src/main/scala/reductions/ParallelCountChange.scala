@@ -10,11 +10,11 @@ object ParallelCountChangeRunner {
   @volatile var parResult = 0
 
   val standardConfig = config(
-    Key.exec.minWarmupRuns -> 20,  // 20
-    Key.exec.maxWarmupRuns -> 40, // 40
-    Key.exec.benchRuns -> 80,      // 80
+    Key.exec.minWarmupRuns -> 20,
+    Key.exec.maxWarmupRuns -> 40,
+    Key.exec.benchRuns -> 80,
     Key.verbose -> false
-  ) withWarmer(new Warmer.Default)
+  ) withWarmer (new Warmer.Default)
 
   def main(args: Array[String]): Unit = {
     val amount = 250
@@ -43,31 +43,28 @@ object ParallelCountChangeRunner {
 object ParallelCountChange {
 
   /** Returns the number of ways change can be made from the specified list of
-   *  coins for the specified amount of money.
-   */
+    * coins for the specified amount of money.
+    */
   def countChange(money: Int, coins: List[Int]): Int = {
-    if (money == 0)
-      1                                                                        // Good leaf: add one possibility
-    else if (money > 0 && !coins.isEmpty)
-      countChange(money - coins.head, coins) + countChange(money, coins.tail)  // Implicit tree
-    else
-      0                                                                        // Bad leaf: not a possibility
+    if (money == 0) 1
+    else if (money < 0 || coins.isEmpty) 0
+    else countChange(money, coins.tail) + countChange(money - coins.head, coins)
   }
 
   type Threshold = (Int, List[Int]) => Boolean
 
   /** In parallel, counts the number of ways change can be made from the
-   *  specified list of coins for the specified amount of money.
-   */
+    * specified list of coins for the specified amount of money.
+    */
   def parCountChange(money: Int, coins: List[Int], threshold: Threshold): Int = {
-    if (coins.isEmpty) 0
-    else if (money == 0) 1
-    else if (coins.length == 1 && money < coins.head) 0
-    else if (threshold(money, coins)) countChange(money, coins)
+
+    // This last condition resolved my gc problem, why ???
+    if (threshold(money, coins) || coins.isEmpty || money <= coins.length)
+      countChange(money, coins)
     else {
-      val (left, right) = parallel(parCountChange(money - coins.head, coins, threshold),
+      val (right, left) = parallel(parCountChange(money - coins.head, coins, threshold),
                                    parCountChange(money, coins.tail, threshold))
-      left + right
+      right + left
     }
   }
 

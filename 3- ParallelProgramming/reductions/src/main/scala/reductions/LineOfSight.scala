@@ -14,7 +14,7 @@ object LineOfSightRunner {
   ) withWarmer(new Warmer.Default)
 
   def main(args: Array[String]) {
-    val length = 10000000
+    val length = 5
     val input = (0 until length).map(_ % 100 * 1.0f).toArray
     val output = new Array[Float](length + 1)
     val seqtime = standardConfig measure {
@@ -23,7 +23,7 @@ object LineOfSightRunner {
     println(s"sequential time: $seqtime ms")
 
     val partime = standardConfig measure {
-      LineOfSight.parLineOfSight(input, output, 10000)
+      LineOfSight.parLineOfSight(input, output, 1)
     }
     println(s"parallel time: $partime ms")
     println(s"speedup: ${seqtime / partime}")
@@ -35,9 +35,11 @@ object LineOfSight {
   def max(a: Float, b: Float): Float = if (a > b) a else b
 
   def lineOfSight(input: Array[Float], output: Array[Float]): Unit = {
-    input.zipWithIndex.foreach{
-      case (xs, 0) => output(0) = 0
-      case (xs, i) => output(i) = max(xs / i, output(i-1))
+    var i =  1
+    output(0) = 0
+    while (i < input.length) {
+      output(i) = max(input(i) / i, output(i-1))
+      i += 1
     }
   }
 
@@ -55,9 +57,12 @@ object LineOfSight {
    */
   def upsweepSequential(input: Array[Float], from: Int, until: Int): Float = {
     var maxAngle = 0f
-    for (i <- from until until) { maxAngle = max(maxAngle, input(i)/i)  }
+    var i = from
+    while (i < until) {
+      maxAngle = max(maxAngle, input(i)/i)
+      i += 1
+    }
     maxAngle
-
     // (from until until).foldLeft(0f)((currentMax, i) => List(input(i) / i, currentMax).max)
   }
 
@@ -72,7 +77,7 @@ object LineOfSight {
   def upsweep(input: Array[Float], from: Int, end: Int,
     threshold: Int): Tree = {
 
-    if (end - from < threshold) Leaf(from, end, upsweepSequential(input, from, end))
+    if (end - from <= threshold) Leaf(from, end, upsweepSequential(input, from, end))
     else {
       val mid = from + (end - from) / 2
       val (left, right) = parallel(upsweep(input, from, mid, threshold),
@@ -89,10 +94,12 @@ object LineOfSight {
     startingAngle: Float, from: Int, until: Int): Unit = {
 
     var a = max(startingAngle, input(from)/from)
-    for (i <- from until until) {
+    var i = from
+    while (i < until) {
       val currentMax = max(a, input(i)/i)
       output(i) = currentMax
       a = currentMax
+      i += 1
     }
   }
 
@@ -116,5 +123,6 @@ object LineOfSight {
 
     val tree = upsweep(input, 0, input.length, threshold)
     downsweep(input, output, 0, tree)
+    output(0) = 0
   }
 }
