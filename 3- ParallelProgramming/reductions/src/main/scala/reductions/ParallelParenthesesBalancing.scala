@@ -19,9 +19,9 @@ object ParallelParenthesesBalancingRunner {
   ) withWarmer(new Warmer.Default)
 
   def main(args: Array[String]): Unit = {
-    val length = 1000000
+    val length = 800000
     val chars = new Array[Char](length)
-    val threshold = 600000
+    val threshold = 100000
     val seqtime = standardConfig measure {
       seqResult = ParallelParenthesesBalancing.balance(chars)
     }
@@ -57,31 +57,31 @@ object ParallelParenthesesBalancing {
    */
   def parBalance(chars: Array[Char], threshold: Int): Boolean = {
 
-    def traverse(from: Int, until: Int, a1: Int): (Int, Int) = {
+    def traverse(from: Int, until: Int): (Int, Int) = {
 
-      var opened = a1
+      var opened = 0
+      var closed = 0
 
       for (i <- from until until) {
         if (chars(i) == '(') opened += 1
-        if (chars(i) == ')') opened -= 1
+        else if (chars(i) == ')' && opened > 0) opened -= 1
+        else if (chars(i) == ')' && opened <= 0) closed +=1
       }
 
-      (max(0, opened), -min(0, opened)) // (opened, closed)
+      (opened, closed)
     }
 
     def reduce(from: Int, until: Int, threshold: Int): (Int, Int) = {
-      if (until - from < threshold) traverse(from, until, 0)
+      if (until - from < threshold) traverse(from, until)
       else {
-        val mid = from + until / 2
-        val (pair1, pair2) = parallel(reduce(from, mid, threshold),
-                                      reduce(mid, until, threshold))
-
-        val (opened1, closed1) = pair1
-        val (opened2, closed2) = pair2
+        val mid = from + (until - from) / 2
+        val ((opened1, closed1), (opened2, closed2)) = parallel(reduce(from, mid, threshold),
+                                                                reduce(mid, until, threshold))
 
         val opened = opened1 + opened2 - closed2
-        val closed = closed2 + closed1 - opened1
-        (max(0, opened), max(0, closed)) // (opened, closed)
+        val closed = closed1 + closed2 - opened1
+
+        (max(0, opened), max(0, closed)) // (opened, closed) between two subarrays
       }
     }
 

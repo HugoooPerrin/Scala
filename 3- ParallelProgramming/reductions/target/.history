@@ -17,3 +17,23 @@ runMain reductions.ParallelParenthesesBalancingRunner
 compile
 runMain reductions.ParallelParenthesesBalancingRunner
 exit
+compile
+runMain reductions.ParallelParenthesesBalancingRunner
+runMain reductions.ParallelCountingRunner
+run
+runMain reductions.ParallelParenthesesBalancingRunner
+submit hugo5.perrin@hotmail.fr AH7N2FTrHFndiawV
+run
+submit hugo5.perrin@hotmail.fr AH7N2FTrHFndiawV
+run
+compile
+run
+submit hugo5.perrin@hotmail.fr AH7N2FTrHFndiawV
+test
+compile
+test
+compile
+test
+run
+submit hugo5.perrin@hotmail.fr AH7N2FTrHFndiawV
+runMain reductions.ParallelParenthesesBalancingRunner

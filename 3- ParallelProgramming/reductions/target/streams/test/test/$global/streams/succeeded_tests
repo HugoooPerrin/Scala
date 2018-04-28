@@ -1,4 +1,5 @@
 #Successful Tests
-#Fri Apr 27 19:56:26 CEST 2018
-reductions.ParallelParenthesesBalancingSuite=1524851786746
-reductions.ParallelCountChangeSuite=1524851786800
+#Sat Apr 28 12:02:06 CEST 2018
+reductions.LineOfSightSuite=1524909726351
+reductions.ParallelParenthesesBalancingSuite=1524909726351
+reductions.ParallelCountChangeSuite=1524909726407
