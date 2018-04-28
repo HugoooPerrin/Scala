@@ -29,6 +29,5 @@ class LineOfSightSuite extends FunSuite {
     downsweepSequential(Array[Float](0f, 1f, 8f, 9f), output, 0f, 1, 4)
     assert(output.toList == List(0f, 1f, 4f, 4f))
   }
-
 }
 

@@ -5,48 +5,30 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/project/target/streams/compile/copyResources/$global/streams/copy-resources" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/src/main/scala/reductions/LineOfSight.scala" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/src/main/scala/reductions/LineOfSight.scala" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/src/main/scala/reductions/ParallelCountChange.scala" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/src/main/scala/reductions/ParallelCountChange.scala" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/src/main/scala/reductions/ParallelParenthesesBalancing.scala" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/src/main/scala/reductions/ParallelParenthesesBalancing.scala" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/src/test/scala/reductions/LineOfSightSuite.scala" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/src/test/scala/reductions/LineOfSightSuite.scala" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/src/test/scala/reductions/ParallelParenthesesBalancingSuite.scala" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/src/test/scala/reductions/ParallelParenthesesBalancingSuite.scala" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/.history" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/.history" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$$anonfun$4.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$$anonfun$4.class" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$$anonfun$5.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$$anonfun$5.class" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$$anonfun$downsweep$1.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$$anonfun$downsweep$1.class" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$$anonfun$downsweep$2.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$$anonfun$downsweep$2.class" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$$anonfun$downsweepSequential$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$$anonfun$lineOfSight$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$$anonfun$upsweepSequential$1.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$.class" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$Leaf$.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$Leaf$.class" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$Leaf.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$Leaf.class" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$Node$.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$Node$.class" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$Node.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$Node.class" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$Tree.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSight$Tree.class" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSightRunner$$anonfun$3.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSightRunner$$anonfun$3.class" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSightRunner$.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/LineOfSightRunner$.class" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/ParallelCountChange$$anonfun$3.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/ParallelCountChange$$anonfun$3.class" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/ParallelCountChange$$anonfun$4.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/ParallelCountChange$$anonfun$4.class" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/ParallelCountChange$$anonfun$combinedThreshold$1.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/ParallelCountChange$$anonfun$combinedThreshold$1.class" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/ParallelCountChange$$anonfun$moneyThreshold$1.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/ParallelCountChange$$anonfun$moneyThreshold$1.class" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/ParallelCountChange$$anonfun$totalCoinsThreshold$1.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/ParallelCountChange$$anonfun$totalCoinsThreshold$1.class" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/ParallelCountChange$.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/ParallelCountChange$.class" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/ParallelParenthesesBalancing$$anonfun$3.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/ParallelParenthesesBalancing$$anonfun$3.class" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/ParallelParenthesesBalancing$$anonfun$4.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/ParallelParenthesesBalancing$$anonfun$4.class" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/ParallelParenthesesBalancing$$anonfun$traverse$1$1.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/ParallelParenthesesBalancing$.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/classes/reductions/ParallelParenthesesBalancing$.class" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/parprog1-reductions_2.11-0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/parprog1-reductions_2.11-0.1-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/test-classes/reductions/LineOfSightSuite.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/test-classes/reductions/LineOfSightSuite.class" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/test-classes/reductions/ParallelParenthesesBalancingSuite.class" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/scala-2.11/test-classes/reductions/ParallelParenthesesBalancingSuite.class" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/compile/compileIncremental/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/compile/compileIncremental/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/compile/packageSubmission/$global/streams/inputs" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/compile/packageSubmission/$global/streams/inputs" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/compile/run/$global/streams/out" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/compile/run/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/compile/runMain/$global/streams/out" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/compile/runMain/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/test/$global/$global/definedTestNames/data" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/test/$global/$global/definedTestNames/data" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/test/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/test/compileIncremental/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/test/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/test/compileIncremental/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/test/definedTests/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/test/test/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/test/test/$global/streams/succeeded_tests" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/test/test/$global/streams/succeeded_tests" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/test/test/isModule=false name=reductions.ParallelParenthesesBalancingSuite/test/out" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/streams/test/test/isModule=false name=reductions.ParallelParenthesesBalancingSuite/test/out" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/test-reports/reductions.LineOfSightSuite.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/test-reports/reductions.LineOfSightSuite.xml" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/test-reports/reductions.ParallelCountChangeSuite.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/test-reports/reductions.ParallelCountChangeSuite.xml" />
       <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/test-reports/reductions.ParallelParenthesesBalancingSuite.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/test-reports/reductions.ParallelParenthesesBalancingSuite.xml" />
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week2/Brouillon.sc" afterPath="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week2/Brouillon.sc" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,21 +54,11 @@
       <file leaf-file-name="LineOfSight.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/reductions/src/main/scala/reductions/LineOfSight.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+            <state relative-caret-position="253">
+              <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
               <folding>
                 <element signature="e#20#43#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParallelCountChange.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/reductions/src/main/scala/reductions/ParallelCountChange.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="61" column="74" lean-forward="false" selection-start-line="61" selection-start-column="74" selection-end-line="61" selection-end-column="74" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -112,8 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/WaterPouringMain.scala" />
-        <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/streams/src/main/scala/streams/GameDef.scala" />
         <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/streams/src/main/scala/streams/Bloxorz.scala" />
         <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/streams/src/main/scala/streams/Brouillon.sc" />
         <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/streams/src/main/scala/streams/Solver.scala" />
@@ -159,10 +129,12 @@
         <option value="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/MonteCarloPiEstimate.scala" />
         <option value="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week2/ScanParallel.scala" />
         <option value="$PROJECT_DIR$/1- FunctionalProgrammingPrinciples/patmat/src/main/scala/patmat/Huffman.scala" />
-        <option value="$PROJECT_DIR$/3- ParallelProgramming/reductions/src/main/scala/reductions/ParallelParenthesesBalancing.scala" />
         <option value="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week2/Brouillon.sc" />
         <option value="$PROJECT_DIR$/3- ParallelProgramming/reductions/src/main/scala/reductions/ParallelCountChange.scala" />
         <option value="$PROJECT_DIR$/3- ParallelProgramming/reductions/src/main/scala/reductions/LineOfSight.scala" />
+        <option value="$PROJECT_DIR$/3- ParallelProgramming/reductions/src/test/scala/reductions/ParallelParenthesesBalancingSuite.scala" />
+        <option value="$PROJECT_DIR$/3- ParallelProgramming/reductions/src/main/scala/reductions/ParallelParenthesesBalancing.scala" />
+        <option value="$PROJECT_DIR$/3- ParallelProgramming/reductions/src/test/scala/reductions/LineOfSightSuite.scala" />
       </list>
     </option>
   </component>
@@ -263,6 +235,33 @@
               <item name="reductions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="reductions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="3- ParallelProgramming" type="462c0819:PsiDirectoryNode" />
+              <item name="reductions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="3- ParallelProgramming" type="462c0819:PsiDirectoryNode" />
+              <item name="reductions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="3- ParallelProgramming" type="462c0819:PsiDirectoryNode" />
+              <item name="reductions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="reductions" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -558,7 +557,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/calculator/src/main/scala/calculator/TweetLength.scala" />
     <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week2/ComputationSpeed.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -848,14 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/reductions/src/test/scala/reductions/ParallelParenthesesBalancingSuite.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week2/ScanParallel.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -880,28 +870,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/reductions/src/main/scala/reductions/ParallelParenthesesBalancing.scala">
+    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/reductions/src/main/scala/reductions/ParallelCountChange.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="78" column="57" lean-forward="true" selection-start-line="78" selection-start-column="57" selection-end-line="78" selection-end-column="57" />
-          <folding>
-            <element signature="e#20#45#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="810">
+          <caret line="61" column="74" lean-forward="false" selection-start-line="61" selection-start-column="74" selection-end-line="61" selection-end-column="74" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/reductions/src/main/scala/reductions/ParallelCountChange.scala">
+    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/reductions/src/main/scala/reductions/ParallelParenthesesBalancing.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="61" column="74" lean-forward="false" selection-start-line="61" selection-start-column="74" selection-end-line="61" selection-end-column="74" />
+        <state relative-caret-position="538">
+          <caret line="80" column="23" lean-forward="false" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/reductions/src/test/scala/reductions/ParallelParenthesesBalancingSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/reductions/src/test/scala/reductions/LineOfSightSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/reductions/src/main/scala/reductions/LineOfSight.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+        <state relative-caret-position="253">
+          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
           <folding>
             <element signature="e#20#43#0" expanded="true" />
           </folding>
