@@ -1,1 +1,18 @@
 exit
+test
+submit hugo5.perrin@hotmail.fr lyxgXHmtCXPQDqfw
+compile
+submit hugo5.perrin@hotmail.fr lyxgXHmtCXPQDqfw
+test
+compile
+test
+submit hugo5.perrin@hotmail.fr lyxgXHmtCXPQDqfw
+submit hugo5.perrin@hotmail.fr ln670EOL43shqS2X
+compile
+runMain kmeans.KMeansRunner
+run-main kmeans.fun.ScalaShop
+runMain kmeans.KMeansRunner
+run
+exit
+compile
+exit

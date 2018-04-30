@@ -43,7 +43,11 @@ class KMeans {
   }
 
   def classify(points: GenSeq[Point], means: GenSeq[Point]): GenMap[Point, GenSeq[Point]] = {
-    ???
+
+    val clustersNotEmpty = points.groupBy(findClosest(_, means))
+
+    // Need to add the means that may be empty
+    means.map(mean => mean -> clustersNotEmpty.getOrElse(mean, GenSeq())).toMap
   }
 
   def findAverage(oldMean: Point, points: GenSeq[Point]): Point = if (points.length == 0) oldMean else {
@@ -59,16 +63,20 @@ class KMeans {
   }
 
   def update(classified: GenMap[Point, GenSeq[Point]], oldMeans: GenSeq[Point]): GenSeq[Point] = {
-    ???
+    oldMeans.map(m => findAverage(m, classified(m)))
   }
 
   def converged(eta: Double)(oldMeans: GenSeq[Point], newMeans: GenSeq[Point]): Boolean = {
-    ???
+    (newMeans zip oldMeans).forall{ case (newM, oldM) => newM.squareDistance(oldM) <= eta }
+//    newMeans.zipWithIndex.map({ case (m, i) => m.squareDistance(oldMeans(i)) }).forall(_ <= eta)
   }
 
   @tailrec
   final def kMeans(points: GenSeq[Point], means: GenSeq[Point], eta: Double): GenSeq[Point] = {
-    if (???) kMeans(???, ???, ???) else ??? // your implementation need to be tail recursive
+    val newMeans = update(classify(points,means), means)
+
+    if (converged(eta)(means, newMeans)) newMeans
+    else kMeans(points, newMeans, eta)
   }
 }
 
@@ -92,7 +100,7 @@ object KMeansRunner {
     Key.exec.minWarmupRuns -> 20,
     Key.exec.maxWarmupRuns -> 40,
     Key.exec.benchRuns -> 25,
-    Key.verbose -> true
+    Key.verbose -> false
   ) withWarmer(new Warmer.Default)
 
   def main(args: Array[String]) {

@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\src\main\scala\week3\Violation.scala:21:27: object TrieMap is not a member of package concurrent[0m
-[0m[[0m[31merror[0m] [0m[0m  val graph2 = concurrent.TrieMap[Int, Int]() ++= (0 until 1000).map(i => (i, i+1))[0m
-[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\src\main\scala\week3\GenericCollection.scala:3:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdef time[R](block: => R): (Long, R) = {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

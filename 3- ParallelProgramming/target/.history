@@ -60,3 +60,6 @@ runMain parallel.Scan
 run
 runMain Violation
 exit
+run
+compile
+exit

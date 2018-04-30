@@ -32,14 +32,6 @@ import scala.collection.GenSeq
   *     a better handling of workload.
   */
 
-def time[R](block: => R): (Long, R) = {
-  val t0 = System.nanoTime()
-  val result = block    // call-by-name
-  val t1 = System.nanoTime()
-  val time = (t1 - t0)/1000
-  (time, result)
-}
-
 /*The parallel for-loop doesn't give a result, it only interacts through side-effects
 Be careful of deadlock then !
 (Not very functional)*/
@@ -113,24 +105,6 @@ def isVowel(c: Char) = ???
 
 Array('e', 'p', 'f', 'i', 'l').par.aggregate(0)((count, c) => if (isVowel(c)) count + 1 else count, _+_)
 */
-
-// Generic collection traits allow us to write code that is unaware of parallelism:
-// it may or may not run in parallel
-
-def largestPalindrome(xs: GenSeq[Int]): Int = {
-  xs.aggregate(Int.MinValue)(
-    (largest, n) =>
-      if (n > largest && n.toString == n.toString.reverse) n else largest,
-    math.max
-  )
-}
-
-val array = (0 until 999999).toArray
-val arrayPar = (0 until 999999).toArray.par
-
-// We can call the function with both a sequential array and a parallel array (2x faster)
-val measure = time {largestPalindrome(array)}
-val measurePar = time {largestPalindrome(arrayPar)}
 
 // Computing set intersection
 import scala.collection._
