@@ -2,7 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ffb4ed3-93ea-4176-9627-3153fcae0f10" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/.history" afterPath="$PROJECT_DIR$/3- ParallelProgramming/reductions/target/.history" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/active.json" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/active.json" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$12179628d81f279a5648$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$12179628d81f279a5648.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$12179628d81f279a5648.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$12c1c565c4eb094e394f$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$12c1c565c4eb094e394f.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$12c1c565c4eb094e394f.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$2db8300965c9972c2055$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$2db8300965c9972c2055.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$2db8300965c9972c2055.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$75b059c204b0d63b0b80$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$75b059c204b0d63b0b80.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$75b059c204b0d63b0b80.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$a9473bf6e2612652e849$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$a9473bf6e2612652e849.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$a9473bf6e2612652e849.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$ac98cd11d1d3769e6283$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$ac98cd11d1d3769e6283.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$ac98cd11d1d3769e6283.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$ae7acd27dd5752fca805$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$ae7acd27dd5752fca805.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/config-classes/$ae7acd27dd5752fca805.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/default/root-3-parallelprogramming-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/default/root-3-parallelprogramming-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/default/root-3-parallelprogramming-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/default/root-3-parallelprogramming-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-compile-internal.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-compile.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-optional.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-plugin.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-pom.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-provided.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-runtime.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-scala-tool.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-test-internal.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-test.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-3-parallelprogramming-build-test.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/$global/update/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week3/ParallelismJVM2.sc" afterPath="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week3/ParallelismJVM2.sc" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/.history" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/.history" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/3-parallelprogramming_2.12-0.1.jar" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/3-parallelprogramming_2.12-0.1.jar" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/3-parallelprogramming/3-parallelprogramming_2.12/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/3-parallelprogramming/3-parallelprogramming_2.12/0.1/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/3-parallelprogramming/3-parallelprogramming_2.12/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/3-parallelprogramming/3-parallelprogramming_2.12/0.1/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-compile.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-optional.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-plugin.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-pom.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-provided.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-runtime.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-test.xml" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/scala-2.12/resolution-cache/reports/3-parallelprogramming-3-parallelprogramming_2.12-test.xml" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/$global/update/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/$global/$global/discoveredMainClasses/data" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/$global/$global/discoveredMainClasses/data" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compile/$global/streams/out" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compile/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/exportedProductJars/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/exportedProductJars/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/packageBin/$global/streams/inputs" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/packageBin/$global/streams/inputs" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/packageBin/$global/streams/out" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/packageBin/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/packageBin/$global/streams/output" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/compile/packageBin/$global/streams/output" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/dependencyClasspathAsJars/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/dependencyClasspathAsJars/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/exportedProductJars/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/exportedProductJars/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/fullClasspathAsJars/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/fullClasspathAsJars/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/internalDependencyAsJars/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/internalDependencyAsJars/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/3- ParallelProgramming/target/streams/runtime/managedClasspath/$global/streams/export" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,22 +108,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ParallelismJVM.sc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/ParallelismJVM.sc">
+      <file leaf-file-name="ParallelismJVM2.sc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week3/ParallelismJVM2.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+            <state relative-caret-position="408">
+              <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParallelismJVM2.sc" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week3/ParallelismJVM2.sc">
+      <file leaf-file-name="Violation.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week3/Violation.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="425">
+              <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,8 +135,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Scala Script" />
         <option value="Scala Worksheet" />
+        <option value="Scala Script" />
       </list>
     </option>
   </component>
@@ -66,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/streams/src/main/scala/streams/Brouillon.sc" />
         <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/streams/src/main/scala/streams/Solver.scala" />
         <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/streams/src/main/scala/streams/StringParserTerrain.scala" />
         <option value="$PROJECT_DIR$/2- FunctionalProgramDesign/src/main/scala/week3/Simulation.scala" />
@@ -116,6 +200,7 @@
         <option value="$PROJECT_DIR$/3- ParallelProgramming/reductions/src/test/scala/reductions/ParallelParenthesesBalancingSuite.scala" />
         <option value="$PROJECT_DIR$/3- ParallelProgramming/reductions/src/main/scala/reductions/ParallelParenthesesBalancing.scala" />
         <option value="$PROJECT_DIR$/3- ParallelProgramming/reductions/src/test/scala/reductions/LineOfSightSuite.scala" />
+        <option value="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week3/Violation.scala" />
         <option value="$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week3/ParallelismJVM2.sc" />
       </list>
     </option>
@@ -126,8 +211,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="791" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2467" />
+    <option name="y" value="-22" />
     <option name="width" value="1129" />
     <option name="height" value="1047" />
   </component>
@@ -165,7 +251,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,12 +285,29 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="3- ParallelProgramming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="3- ParallelProgramming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="week3" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -216,6 +319,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -417,7 +521,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="791" y="0" width="1129" height="1047" extended-state="0" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -434,9 +538,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7795359" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2413179" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.116145834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20520833" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -451,6 +554,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.171875" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -463,13 +567,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2- FunctionalProgramDesign/project/build.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/scalashop/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -597,13 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/common/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1- FunctionalProgrammingPrinciples/recfun/src/main/scala/common/package.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -706,7 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,7 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -722,9 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="583">
           <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="102" selection-end-column="5" />
-          <folding>
-            <element signature="e#20#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -732,7 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,7 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,7 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,7 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,7 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,7 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1335">
           <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,7 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,7 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,7 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1258">
           <caret line="90" column="41" lean-forward="true" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -804,7 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,22 +887,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="90" column="16" lean-forward="true" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week1/ParallelismJVM.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+        <state relative-caret-position="493">
+          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/common/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="25" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week3/Violation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3- ParallelProgramming/src/main/scala/week3/ParallelismJVM2.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+        <state relative-caret-position="408">
+          <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
           <folding />
         </state>
       </provider>

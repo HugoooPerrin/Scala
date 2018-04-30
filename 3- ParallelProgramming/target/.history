@@ -57,3 +57,6 @@ compile
 runMain parallel.Scan
 compile
 runMain parallel.Scan
+run
+runMain Violation
+exit

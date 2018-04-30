@@ -1,3 +1,5 @@
+import scala.collection.GenSeq
+
 /**
   * => Task-parallel programming:
   *
@@ -30,6 +32,14 @@
   *     a better handling of workload.
   */
 
+def time[R](block: => R): (Long, R) = {
+  val t0 = System.nanoTime()
+  val result = block    // call-by-name
+  val t1 = System.nanoTime()
+  val time = (t1 - t0)/1000
+  (time, result)
+}
+
 /*The parallel for-loop doesn't give a result, it only interacts through side-effects
 Be careful of deadlock then !
 (Not very functional)*/
@@ -42,7 +52,7 @@ def initializeArray(xs: Array[Int])(v: Int): Unit = {
 
 // Mandlebrot Set: non diverging sequence with Zn+1 = Zn**2 + C
 
-def color(i: Int) = ???
+/*def color(i: Int) = ???
 def coordinatesFor(i: Int) = ???
 
 val image = new Array[Int](1000)
@@ -76,7 +86,7 @@ def parRender(): Unit = {
 // Non-parallelizable operations
 def sum(xs: Array[Int]): Int = {
   xs.par.foldLeft(0)(_ + _)         // Doesn't run in parallel
-}
+}*/
 
 /*
 Operation foldRight, foldLeft, reduceRight, reduceLeft, scanRight and scanLeft can process
@@ -85,7 +95,91 @@ only sequentially !
 They are of type (A, B) => A
 
 Whereas fold method is of type (A, A) => A so we can use the reduction tree trick
-we saw in previous class
+we saw in previous class (if reduction function is associative)
 */
 
 // Use cases: fold and similar operations
+def sumPar(xs: Array[Int]): Int = {
+  xs.par.fold(0)(_ + _)
+}
+
+def max(xs: Array[Int]): Int = {
+  xs.par.fold(Int.MinValue)(math.max)
+}
+
+// The aggregate operation: combination of fold and foldLeft
+/*
+def isVowel(c: Char) = ???
+
+Array('e', 'p', 'f', 'i', 'l').par.aggregate(0)((count, c) => if (isVowel(c)) count + 1 else count, _+_)
+*/
+
+// Generic collection traits allow us to write code that is unaware of parallelism:
+// it may or may not run in parallel
+
+def largestPalindrome(xs: GenSeq[Int]): Int = {
+  xs.aggregate(Int.MinValue)(
+    (largest, n) =>
+      if (n > largest && n.toString == n.toString.reverse) n else largest,
+    math.max
+  )
+}
+
+val array = (0 until 999999).toArray
+val arrayPar = (0 until 999999).toArray.par
+
+// We can call the function with both a sequential array and a parallel array (2x faster)
+val measure = time {largestPalindrome(array)}
+val measurePar = time {largestPalindrome(arrayPar)}
+
+// Computing set intersection
+import scala.collection._
+
+def intersection(a: GenSet[Int], b: GenSet[Int]): mutable.Set[Int] = {
+  val result = mutable.Set[Int]()
+  for (x <- a) if (b contains x) result += x
+  result
+}
+
+intersection((0 until 1000).toSet, (0 until 1000 by 4).toSet).size
+intersection((0 until 1000).par.toSet, (0 until 1000 by 4).par.toSet).size // Not deterministic, there can be corruption of internal state because of thread concurrent access
+
+/**
+  * Avoid modify to the same memory locations without proper synchronization
+  */
+import java.util.concurrent._
+
+/*def intersectionConcurrent(a: GenSet[Int], b: GenSet[Int]): mutable.Set[Int] = {
+  val result = new ConcurrentSkipListSet[Int]()
+  for (x <- a) if (b contains x) result += x // ?
+  result
+}*/
+
+// Assumed to work correctly
+
+/*
+Using Splitters to implement fold method
+ */
+val remaining = ???
+val threshold = ???
+
+def fold[A](z: A)(f: (A, A) => A): A = {
+  if (remaining < threshold) foldLeft(z)(f)  // Sequential alternative
+  else {
+    val children = for (child <- split) yield task { child.fold(z)(f) }
+    children.map(_.join()).foldLeft(z)(f)
+  }
+}
+
+/*
+Using builder to implement filter method
+ */
+def filter[T](p: T => Boolean): Repr = {
+  val b = newBuilder
+  for (x <- this) if (p(x)) b += x
+  b.result
+}
+
+// Combiner is the parallel version of Builder
+
+// Split and combine are both efficient method (of complexity o(log(n)) or better
