@@ -16,3 +16,5 @@ run
 exit
 compile
 exit
+runMain kmeans.KMeansRunner
+run-main kmeans.fun.ScalaShop
