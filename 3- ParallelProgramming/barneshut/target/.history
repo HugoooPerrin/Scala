@@ -1,1 +1,40 @@
 exit
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+runMain barneshut.BarnesHut
+test
+compile
+test
+runMain barneshut.BarnesHut
+compile
+runMain barneshut.BarnesHut
+submit hugo5.perrin@hotmail.fr arxhvnj7tvAfkRE3
+compile
+submit hugo5.perrin@hotmail.fr arxhvnj7tvAfkRE3
+runMain barneshut.BarnesHut
+compile
+test
+runMain barneshut.BarnesHut
+submit hugo5.perrin@hotmail.fr arxhvnj7tvAfkRE3
+compile
+runMain barneshut.BarnesHut
+compile
+runMain barneshut.BarnesHut
+submit hugo5.perrin@hotmail.fr arxhvnj7tvAfkRE3
+submit hugo5.perrin@hotmail.fr Ka1IcMjEZ394TFtr
+exit
