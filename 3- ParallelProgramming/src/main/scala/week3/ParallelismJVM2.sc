@@ -100,11 +100,10 @@ def max(xs: Array[Int]): Int = {
 }
 
 // The aggregate operation: combination of fold and foldLeft
-/*
+
 def isVowel(c: Char) = ???
 
 Array('e', 'p', 'f', 'i', 'l').par.aggregate(0)((count, c) => if (isVowel(c)) count + 1 else count, _+_)
-*/
 
 // Computing set intersection
 import scala.collection._

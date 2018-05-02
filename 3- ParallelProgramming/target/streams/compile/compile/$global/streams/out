@@ -1,4 +1,17 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\src\main\scala\week3\GenericCollection.scala:3:1: expected class or object definition[0m
-[0m[[0m[31merror[0m] [0m[0mdef time[R](block: => R): (Long, R) = {[0m
-[0m[[0m[31merror[0m] [0m[0m^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\src\main\scala\week4\ArrayCombiner.scala:57:37: not found: value chunks[0m
+[0m[[0m[31merror[0m] [0m[0m    val tasks = for ((from, end) <- chunks) yield task { copyTo(array, from, end) }[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\src\main\scala\week4\ArrayCombiner.scala:57:72: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Any[0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val tasks = for ((from, end) <- chunks) yield task { copyTo(array, from, end) }[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\src\main\scala\week4\ArrayCombiner.scala:57:78: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Any[0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val tasks = for ((from, end) <- chunks) yield task { copyTo(array, from, end) }[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\HPERRIN\Desktop\Scala\3- ParallelProgramming\src\main\scala\week4\ArrayCombiner.scala:79:28: not found: value string[0m
+[0m[[0m[31merror[0m] [0m[0m        val parallelized = string.par[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

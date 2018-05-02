@@ -1,1 +1,1 @@
-["Atomicity","Generic","NoAtomicity","SynchronizedBlock","Violation","parallel.MonteCarloPi","parallel.ParallelSorting","parallel.Scan"]
+["ArrayCombiner","Atomicity","Generic","NoAtomicity","SynchronizedBlock","Violation","parallel.MonteCarloPi","parallel.ParallelSorting","parallel.Scan"]
