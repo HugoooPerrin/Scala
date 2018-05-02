@@ -88,6 +88,6 @@ object ArrayCombiner {
     run(1)
     run(2)
     run(4)
-    // run(8)
+    run(8)
   }
 }

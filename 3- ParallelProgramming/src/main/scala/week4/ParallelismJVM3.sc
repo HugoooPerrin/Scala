@@ -18,6 +18,8 @@
   *        that has an efficient += method
   *        that can be converted to the resulting data structure in o(n/P) time
   *
+  *        (See ArrayCombiner) for example
+  *
   *
   *
   *  Trees are good for parallelism only if they are balanced. If it is not the case then the workload
