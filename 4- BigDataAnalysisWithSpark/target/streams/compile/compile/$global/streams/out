@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\HPERRIN\Desktop\Scala\4- BigDataAnalysisWithSpark\src\main\scala\week1\HelloWorld.scala:5:19: object spark is not a member of package org.apache[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.SparkContext[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\HPERRIN\Desktop\Scala\4- BigDataAnalysisWithSpark\src\main\scala\week1\HelloWorld.scala:6:19: object spark is not a member of package org.apache[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.SparkContext._[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
