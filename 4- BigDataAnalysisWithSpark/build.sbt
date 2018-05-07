@@ -1,4 +1,4 @@
-name := "3- ParallelProgramming"
+name := "4- BigDataAnalysisWithSpark"
 
 version := "0.1"
 
