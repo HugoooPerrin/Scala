@@ -15,7 +15,7 @@ case class WikipediaArticle(title: String, text: String) {
 
 object WikipediaRanking {
 
-  System.setProperty("hadoop.home.dir", "C:\\winutils")
+  // System.setProperty("hadoop.home.dir", "C:/winutils")
 
   val langs = List(
     "JavaScript", "Java", "PHP", "Python", "C#", "C++", "Ruby", "CSS",
@@ -26,6 +26,11 @@ object WikipediaRanking {
     .setAppName("WikipediaRanking")
     .setMaster("local")
   val sc: SparkContext = new SparkContext(conf)
+
+  // Hint: use a combination of `sc.textFile`, `WikipediaData.filePath` and `WikipediaData.parse`
+  val filePath = "/home/hugoperrin/Bureau/Datasets/Wikipedia/wikipedia.dat"
+  // val wikiRdd: RDD[WikipediaArticle] = sc.textFile(filePath).map(WikipediaData.parse)  // For personal run
+  val wikiRdd: RDD[WikipediaArticle] = sc.textFile(WikipediaData.filePath).map(WikipediaData.parse)     // For submitting
 
   /** Returns the number of articles on which the language `lang` occurs.
    *  Hint1: consider using method `aggregate` on RDD[T].
@@ -74,10 +79,6 @@ object WikipediaRanking {
        .collect().toList.sortWith((l1, l2) => l1._2 > l2._2)
 
   def main(args: Array[String]) {
-
-    // Hint: use a combination of `sc.textFile`, `WikipediaData.filePath` and `WikipediaData.parse`
-    val filePath = "C:/Users/HPERRIN/Desktop/wikipedia.dat"
-    val wikiRdd: RDD[WikipediaArticle] = sc.textFile(filePath).map(WikipediaData.parse)
 
     /* Languages ranked according to (1) */
     val langsRanked: List[(String, Int)] = timed("Part 1: naive ranking", rankLangs(langs, wikiRdd))

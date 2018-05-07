@@ -51,3 +51,6 @@ run
 exit
 run
 exit
+compile
+run
+exit

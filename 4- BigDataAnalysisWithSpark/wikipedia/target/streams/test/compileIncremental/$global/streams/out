@@ -1,31 +1,31 @@
 [0m[[0mdebug[0m] [0m[naha] The wikipedia.WikipediaArticle source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	data, wikiRdd.[0m
+[0m[[0mdebug[0m] [0m[naha] 	wikiRdd, filePath.[0m
 [0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
 [0m[[0mdebug[0m] [0m[naha] Files invalidated by inheriting from (external) wikipedia.WikipediaArticle: Set(); now invalidating by inheritance (internally).[0m
 [0m[[0mdebug[0m] [0m[naha] Getting direct dependencies of all sources transitively invalidated by inheritance.[0m
 [0m[[0mdebug[0m] [0m[naha] Getting sources that directly depend on (external) wikipedia.WikipediaArticle.[0m
-[0m[[0mdebug[0m] [0m[naha] None of the modified names appears in C:\Users\HPERRIN\Desktop\Scala\4- BigDataAnalysisWithSpark\wikipedia\src\test\scala\wikipedia\WikipediaSuite.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0m[naha] None of the modified names appears in /home/hugoperrin/Bureau/DataScience/Languages/Scala/4- BigDataAnalysisWithSpark/wikipedia/src/test/scala/wikipedia/WikipediaSuite.scala. This dependency is not being considered for invalidation.[0m
 [0m[[0mdebug[0m] [0m[naha] The wikipedia.WikipediaArticle$ source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	data, wikiRdd.[0m
+[0m[[0mdebug[0m] [0m[naha] 	wikiRdd, filePath.[0m
 [0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
 [0m[[0mdebug[0m] [0m[naha] Files invalidated by inheriting from (external) wikipedia.WikipediaArticle$: Set(); now invalidating by inheritance (internally).[0m
 [0m[[0mdebug[0m] [0m[naha] Getting direct dependencies of all sources transitively invalidated by inheritance.[0m
 [0m[[0mdebug[0m] [0m[naha] Getting sources that directly depend on (external) wikipedia.WikipediaArticle$.[0m
-[0m[[0mdebug[0m] [0m[naha] None of the modified names appears in C:\Users\HPERRIN\Desktop\Scala\4- BigDataAnalysisWithSpark\wikipedia\src\test\scala\wikipedia\WikipediaSuite.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0m[naha] None of the modified names appears in /home/hugoperrin/Bureau/DataScience/Languages/Scala/4- BigDataAnalysisWithSpark/wikipedia/src/test/scala/wikipedia/WikipediaSuite.scala. This dependency is not being considered for invalidation.[0m
 [0m[[0mdebug[0m] [0m[naha] The wikipedia.WikipediaRanking$ source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	data, wikiRdd.[0m
+[0m[[0mdebug[0m] [0m[naha] 	wikiRdd, filePath.[0m
 [0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
 [0m[[0mdebug[0m] [0m[naha] Files invalidated by inheriting from (external) wikipedia.WikipediaRanking$: Set(); now invalidating by inheritance (internally).[0m
 [0m[[0mdebug[0m] [0m[naha] Getting direct dependencies of all sources transitively invalidated by inheritance.[0m
 [0m[[0mdebug[0m] [0m[naha] Getting sources that directly depend on (external) wikipedia.WikipediaRanking$.[0m
-[0m[[0mdebug[0m] [0m[naha] None of the modified names appears in C:\Users\HPERRIN\Desktop\Scala\4- BigDataAnalysisWithSpark\wikipedia\src\test\scala\wikipedia\WikipediaSuite.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0m[naha] None of the modified names appears in /home/hugoperrin/Bureau/DataScience/Languages/Scala/4- BigDataAnalysisWithSpark/wikipedia/src/test/scala/wikipedia/WikipediaSuite.scala. This dependency is not being considered for invalidation.[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
 [0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set(NamesChange(wikipedia.WikipediaArticle,ModifiedNames(regularNames = data, wikiRdd, implicitNames = )), NamesChange(wikipedia.WikipediaArticle$,ModifiedNames(regularNames = data, wikiRdd, implicitNames = )), NamesChange(wikipedia.WikipediaRanking$,ModifiedNames(regularNames = data, wikiRdd, implicitNames = )))[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set(NamesChange(wikipedia.WikipediaArticle,ModifiedNames(regularNames = wikiRdd, filePath, implicitNames = )), NamesChange(wikipedia.WikipediaArticle$,ModifiedNames(regularNames = wikiRdd, filePath, implicitNames = )), NamesChange(wikipedia.WikipediaRanking$,ModifiedNames(regularNames = wikiRdd, filePath, implicitNames = )))[0m
 [0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
