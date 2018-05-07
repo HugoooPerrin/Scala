@@ -24,7 +24,7 @@ object Lists {
    * @return The sum of all elements in `xs`
    */
     def sum(xs: List[Int]): Int = xs match {
-      case Nil => throw new Error("Sum of empty list")
+      case Nil => throw new java.util.NoSuchElementException
       case x :: Nil => x
       case y :: ys => y + sum(ys)
     }
@@ -43,7 +43,7 @@ object Lists {
    * @throws java.util.NoSuchElementException if `xs` is an empty list
    */
     def max(xs: List[Int]): Int = xs match {
-      case Nil => throw new Error("Max of empty list")
+      case Nil => throw new java.util.NoSuchElementException
       case x :: Nil => x
       case y :: x :: tail =>
         if (y > x) max(y :: tail)
