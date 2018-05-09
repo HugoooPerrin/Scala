@@ -29,8 +29,8 @@ object WikipediaRanking {
 
   // Hint: use a combination of `sc.textFile`, `WikipediaData.filePath` and `WikipediaData.parse`
   val filePath = "/home/hugoperrin/Bureau/Datasets/Wikipedia/wikipedia.dat"
-  // val wikiRdd: RDD[WikipediaArticle] = sc.textFile(filePath).map(WikipediaData.parse)  // For personal run
-  val wikiRdd: RDD[WikipediaArticle] = sc.textFile(WikipediaData.filePath).map(WikipediaData.parse)     // For submitting
+  val wikiRdd: RDD[WikipediaArticle] = sc.textFile(filePath).map(WikipediaData.parse)  // For personal run
+//  val wikiRdd: RDD[WikipediaArticle] = sc.textFile(WikipediaData.filePath).map(WikipediaData.parse)     // For submitting
 
   /** Returns the number of articles on which the language `lang` occurs.
    *  Hint1: consider using method `aggregate` on RDD[T].
@@ -56,7 +56,7 @@ object WikipediaRanking {
    * to the Wikipedia pages in which it occurs.
    */
   def makeIndex(langs: List[String], rdd: RDD[WikipediaArticle]): RDD[(String, Iterable[WikipediaArticle])] =
-    rdd.flatMap(w => langs.filter(l => w.mentionsLanguage(l)).map((_, w))).groupByKey()
+
 
   /* (2) Compute the language ranking again, but now using the inverted index. Can you notice
    *     a performance improvement?

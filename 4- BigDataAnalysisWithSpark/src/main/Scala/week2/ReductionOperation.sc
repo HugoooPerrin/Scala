@@ -19,20 +19,30 @@
   *   => Allow to act on each key in parallel or to regroup data accross the network.
   *
   *   => RDD[(A, B)] are treated particularly in Spark:
-  *     - reduceByKey
-  *     - groupByKey
-  *     - mapValues
-  *     - keys
-  *     - join, leftOuterJoin, rightOuterJoin
-  *     - countByKey
+  *     - reduceByKey                                          (Transformation)
+  *     - groupByKey                                           (Transformation)
+  *     - mapValues                                            (Transformation)
+  *     - keys                                                 (Transformation)
+  *     - join, leftOuterJoin, rightOuterJoin                  (Transformation)
+  *     - countByKey                                           (Action)
   *
+  *   Important note: reduceByKey is much more efficient than groupByKey + reduce !
   */
 
 /*
 Creating a Pair RDD
 */
 
+/*
 val rdd: RDD[WikipediaPage] = ???
 
 // Type: org.apache.spark.rdd.RDD[(String, String)]
-val pairRDD = rdd.map(page => (page.title, page.text))
+val pairRDD = rdd.map(page => (page.title, page.text))*/
+
+
+/*
+Groupby reminder
+ */
+
+val ages = List(2,52,44,23,17,14, 12, 82,51,64)
+val grouped = ages.groupBy({ age => if (age < 25) "young" else "adult"})
