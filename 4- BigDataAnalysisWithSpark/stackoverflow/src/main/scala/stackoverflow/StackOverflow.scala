@@ -4,6 +4,7 @@ import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.spark.rdd.RDD
+import org.apache.spark.HashPartitioner
 import annotation.tailrec
 import scala.reflect.ClassTag
 
@@ -20,8 +21,7 @@ object StackOverflow extends StackOverflow {
   /** Main function */
   def main(args: Array[String]): Unit = {
 
-//    val lines   = sc.textFile("src/main/resources/stackoverflow/stackoverflow.csv")
-    val lines   = sc.textFile("C:/Users/HPERRIN/Desktop/stackoverflow.csv")
+    val lines   = sc.textFile("/home/hugoperrin/Bureau/Datasets/Stackoverflow/stackoverflow.csv")
     val raw     = rawPostings(lines)
     val grouped = groupedPostings(raw)
     val scored  = scoredPostings(grouped)
@@ -116,7 +116,7 @@ class StackOverflow extends Serializable {
     }
 
     grouped.values
-           .map(iter => (iter.head._1, answerHighScore(iter.map(_._2).toArray)))
+      .map(iter => (iter.head._1, answerHighScore(iter.map(_._2).toArray)))
   }
 
 
@@ -136,7 +136,9 @@ class StackOverflow extends Serializable {
       }
     }
 
-    scored.map({ case (question, score) => (firstLangInTag(question.tags, langs).get * langSpread, score) })
+    scored.map({ case (question, score) => (firstLangInTag(question.tags, langs).getOrElse(-1) * langSpread, score) })
+          .filter({ case (lang, score) => lang >= 0})
+          .partitionBy(new HashPartitioner(langs.length)).cache()   // Key performance trick: 5x speed-up and no stackoverflow !
   }
 
 
