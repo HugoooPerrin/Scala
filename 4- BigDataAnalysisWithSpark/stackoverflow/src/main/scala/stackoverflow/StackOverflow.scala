@@ -138,7 +138,9 @@ class StackOverflow extends Serializable {
 
     scored.map({ case (question, score) => (firstLangInTag(question.tags, langs).getOrElse(-1) * langSpread, score) })
           .filter({ case (lang, score) => lang >= 0})
-          .partitionBy(new HashPartitioner(langs.length)).cache()   // Key performance trick: 5x speed-up and no stackoverflow !
+          .partitionBy(new HashPartitioner(langs.length)).persist()   // Key performance trick: 5x speed-up and no stackoverflow !
+                                                                      // What about using a RangePartitioner (since numerically ordered RDDs) ???
+                                                                      // persist is necessary in order to avoid partitioning each time you call the RDD
   }
 
 
