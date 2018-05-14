@@ -21,11 +21,12 @@ object StackOverflow extends StackOverflow {
   /** Main function */
   def main(args: Array[String]): Unit = {
 
-    val lines   = sc.textFile("/home/hugoperrin/Bureau/Datasets/Stackoverflow/stackoverflow.csv")
+//    val lines   = sc.textFile("/home/hugoperrin/Bureau/Datasets/Stackoverflow/stackoverflow.csv")
+    val lines   = sc.textFile("C:/Users/HPERRIN/Desktop/stackoverflow.csv")
     val raw     = rawPostings(lines)
     val grouped = groupedPostings(raw)
     val scored  = scoredPostings(grouped)
-    val vectors = vectorPostings(scored).sample(true, 0.1, 0) // .persist() // Since vectors is called at each iteration of kmeans
+    val vectors = vectorPostings(scored).sample(true, 0.2, 0) // .persist() // Since vectors is called at each iteration of kmeans
 //    assert(vectors.count() == 2121822, "Incorrect number of vectors: " + vectors.count())
 
 //    println("\n\n" + grouped.take(10).foreach(p => println("\n" + p + "\n")) + "\n\n")
