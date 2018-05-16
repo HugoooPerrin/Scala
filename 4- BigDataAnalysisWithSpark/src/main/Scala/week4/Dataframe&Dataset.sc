@@ -88,19 +88,43 @@
   *     -> repartition
   *
   *     -> new Aggregator[IN, BUF, OUT] to implement your own aggregation operation
-  *
-  *
-  *
-  *
+
   *
   * Note: Encoders are what convert your data between JVM objects and Spark SQL's specialized
   *         internal representation.
+  *
+  *
+  *
+  *  Final conclusion
+  *
+  *  => Use Datasets when...
+  *         - you have structured/semi-structured data
+  *         - you want typesafety
+  *         - you need to work with functional APIs
+  *         - You need good performance but it doesn't have to be the best
+  *
+  *  => use DataFrames when...
+  *         - you have structured/semi-structured data
+  *         - you want the best possible performance automatically
+  *
+  *  => Use RDDs when...
+  *         - you have unstructured data
+  *         - you need to fine-tune and manage low-level details of RDD computation
+  *         - you have complex data types that cannot be serialized with encoders
+  *
+  *
+  *
+  *  When using Datasets with highrt-order function, Catalyst cannot optimize while it can with
+  *   relational operations.
+  *  But Tungsten is always running under the hood so it can result in large speedups over RDDs
   */
 
 /*
-// Aggregator example
+// Emulating a reduceByKey with an Aggregator
+
 import spark.implicits._
 import org.apache.spark.sql.expressions.Aggregator
+import org.apache.spark.sql.Encoder
 
 val keyValues = List((3, "Me"), (1, "Thi"), (2, "Se"), (3, "ssa"))
 
@@ -111,6 +135,8 @@ val strConcat = new Aggregator[(Int, String), String, String] {
   def reduce(b: String, a: (Int, String)): String = b + a._2
   def merge(b1: String, b2: String): String = b1 + b2
   def finish(r: String): String = r
+  override def bufferEncoder: Encoder[String] = Encoders.STRING
+  override def outputEncoder: Encoder[String] = Encoders.STRING
 }.toColumn
 
 keyValuesDS.groupByKey(pair => pair._1)
